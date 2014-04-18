@@ -48,30 +48,7 @@
         </article>
     </section>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
-    <script>
-        function getDribbleShot() {
-            var randomPageNumber = Math.floor(Math.random() * (29 - 1 + 1)) + 1;
-            $.getJSON( "http://api.dribbble.com/shots/everyone/?callback=?", { page: randomPageNumber }).done(function(page) {
-                var dribbleImg = $(page.shots);
-                var randomNumber = Math.floor(Math.random() * (14 - 1 + 1)) + 1;
-                var image = '<img src="' + dribbleImg[randomNumber].image_url + '"/>';
-                $('.suggestionApp-content')
-                    .append('<br>' + image + '<br>')
-                    .append( dribbleImg[randomNumber].player.name + '<br>')
-                    .append('<a href="' + dribbleImg[randomNumber].player.url + '">' + dribbleImg[randomNumber].player.url +'</a>'
-                );
-            });
-        }
-        $(window).load(function() {
-            getDribbleShot();
-        });
-        $('.suggestionApp-action').click(function() {
-            $('.suggestionApp-content').empty();
-            getDribbleShot();
-        });
-
-    </script>
+    <script src="assets/js/main.min.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -1,0 +1,82 @@
+[
+    {
+        "item": 1,
+        "value": "Make a demo showing off a new experimental canvas feature"
+    },
+    {
+        "item": 2,
+        "value": "Make a demo using CSS Filters"
+    },
+    {
+        "item": 3,
+        "value": "Make a demo using http://flexboxgrid.com/"
+    },
+    {
+        "item": 4,
+        "value": "Build an html/css tutorial explaining some new Wordpress 3.9 features!"
+    },
+    {
+        "item": 5,
+        "value": "Build something that features perfect web accessibility"
+    },
+    {
+        "item": 6,
+        "value": "Write an ajax tutorial"
+    },
+    {
+        "item": 7,
+        "value": "Make a backbonejs application"
+    },
+    {
+        "item": 8,
+        "value": "Build an html5 game"
+    },
+    {
+        "item": 9,
+        "value": "Make a demo using the keyup and keydown javascript events"
+    },
+    {
+        "item": 10,
+        "value": "Make a demo using the css grid jeet.gs"
+    },
+    {
+        "item": 11,
+        "value": "Use the ::shadow css selector!"
+    },
+    {
+        "item": 12,
+        "value": "Pick an API and make a demo using it!"
+    },
+    {
+        "item": 13,
+        "value": "Build a javascript plugin that swaps out images on different breakpoints"
+    },
+    {
+        "item": 14,
+        "value": "Pick a shape that has more than 3 sides. Animate it!"
+    },
+    {
+        "item": 15,
+        "value": "Make a css shape generator"
+    },
+    {
+        "item": 16,
+        "value": "Animate text wrapped in a paragraph tag"
+    },
+    {
+        "item": 17,
+        "value": "Build a working chess set"
+    },
+    {
+        "item": 18,
+        "value": "Make an SVG animation that plays a sound when it is triggered"
+    },
+    {
+        "item": 19,
+        "value": "Make a javascript plugin that detects the users UA string!"
+    },
+    {
+        "item": 20,
+        "value": "Make a demo that accesses the users webcam and takes a snapshot when they click a button"
+    }
+]
