@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practice Your Skills!</title>
+    <meta name="description" content="Need some Front-End inspiration?">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
+    <link rel="icon" type="image/ico" href="32_favicon.png"/>
+    <link rel="icon" type="image/ico" href="64_favicon.png"/>
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+        <section class="pageContent block-container-single">
+            <header class="main-header group">
+                <p>Build Something Related to this Github Repo!</p>
+                <a class="home-link" href="http://tevko.github.io/practice">Home</a>
+            </header>
+        <article class="block-github">
+            <div class="block-content">
+                <div class="suggestionApp">
+                    <p class="suggestionApp-content">
+                        <span>
+                        </span>
+                    </p>
+                    <div class="suggestionApp-prompts">
+                        <a class="suggestionApp-action btn" href="#">No thanks.</a>
+                        <form action="http://codepen.io/pen/define" method="POST" target="_blank">
+                            <input type="hidden" name="data" value='{
+                            "title": "New Pen from The Practice App!",
+                            "html": "<span><a href=\"http://tevko.github.io/practice\">Check out The Practice App!</a></span>",
+                            "css": "span{ position: absolute;top: 1px;right: 1px; }"}'
+                            />
+                            <input type="submit" value="Okay, I'll do it!" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <script>
+        function getGitRepo() {
+            var randomPageNumber = Math.floor(Math.random() * (10000000 - 1 + 1)) + 1;
+            $.getJSON("https://api.github.com/repositories?since=" + randomPageNumber).done(function(data) {
+                var randomNumber = Math.floor(Math.random() * (99 - 1 + 1)) + 1;
+                $('.suggestionApp-content')
+                    .append('<br>' + data[randomNumber].name + '<br>')
+                    .append(data[randomNumber].description + '<br>')
+                    .append('<a href="' + data[randomNumber].html_url + '" target="_blank">' + data[randomNumber].html_url +'</a>'
+                );
+            });
+        }
+        $(window).load(function() {
+            getGitRepo();
+        });
+        $('.suggestionApp-action').click(function() {
+            $('.suggestionApp-content').empty();
+            getGitRepo();
+        });
+
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-48014211-1', 'tevko.github.io');
+        ga('send', 'pageview');
+    </script>
+    <!--dev only -->
+
+</body>
+
+</html>

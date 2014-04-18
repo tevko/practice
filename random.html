@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practice Your Skills!</title>
+    <meta name="description" content="Need some Front-End inspiration?">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
+    <link rel="icon" type="image/ico" href="32_favicon.png"/>
+    <link rel="icon" type="image/ico" href="64_favicon.png"/>
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <section class="pageContent block-container-single">
+        <header class="main-header group">
+            <p>Build Something Random!</p>
+            <a class="home-link" href="http://tevko.github.io/practice">Home</a>
+        </header>
+        <article class="block-random">
+            <div class="block-content">
+                <div class="suggestionApp">
+                    <p class="suggestionApp-content">
+                        <span>
+                        </span>
+                    </p>
+                    <div class="suggestionApp-prompts">
+                        <a class="suggestionApp-action btn" href="#">No thanks.</a>
+                        <form action="http://codepen.io/pen/define" method="POST" target="_blank">
+                            <input type="hidden" name="data" value='{
+                            "title": "New Pen from The Practice App!",
+                            "html": "<span><a href=\"http://tevko.github.io/practice\">Check out The Practice App!</a></span>",
+                            "css": "span{ position: absolute;top: 1px;right: 1px; }"}'
+                            />
+                            <input type="submit" value="Okay, I'll do it!" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <script>
+        counter = 1;
+
+        var build = new Array("Make a demo showing off a new experimental canvas feature","Make a demo using CSS Filters","Make a demo using http://flexboxgrid.com/","Build an html/css tutorial explaining some new Wordpress 3.9 features!","Build something that features perfect web accessibility","Write an ajax tutorial","Make a backbonejs application","Build an html5 game","Make a demo using the keyup and keydown javascript events","Make a demo using the css grid jeet.gs","Use the ::shadow css selector!","Pick an API and make a demo using it!","Build a javascript plugin that swaps out images on different breakpoints"," Pick a shape that has more than 3 sides. Animate it!","Make a css shape generator","Make a javascript plugin that detects the users UA string!","Animate text wrapped in a paragraph tag","Build a working chess set","Make an SVG animation that plays a sound when it is triggered","Make a demo that accesses the users webcam and takes a snapshot when they click a button");
+
+        $('.suggestionApp-content span').text(build[0]);
+
+        $('.suggestionApp-action').click(function(event) {
+            event.preventDefault();
+            counter = (counter + 1) % build.length;
+            $('span').text(build[counter]);
+            if(counter == 19) {
+                alert('That\'s 20 items! Come back next week for 20 more!');
+            }
+        });
+
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-48014211-1', 'tevko.github.io');
+        ga('send', 'pageview');
+    </script>
+    <!--dev only -->
+
+</body>
+
+</html>

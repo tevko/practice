@@ -1,0 +1,113 @@
+
+.block-container {
+    height:100%;
+    width:100%;
+    &.home {
+        height: 93.7%;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+%block {
+    height:33.33%;
+    display:table;
+    width:100%;
+    color:white;
+    &:hover {
+        background-repeat: no-repeat;
+    }
+}
+
+.block-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size:2em;
+    transition: .25s linear;
+    font-family: 'Open Sans', sans-serif;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.44);
+        transform: translateX(20%);
+    }
+}
+
+.block-random, .block-dribbble, .block-github {
+    @extend %block;
+}
+
+.block-random {
+    background-color: $random;
+    &:hover {
+        background-image:url('../../assets/img/practice.png');
+    }
+}
+
+.block-dribbble {
+    background-color: $dribbble;
+    &:hover {
+        background-image:url('../../assets/img/dribbble.png');
+    }
+}
+
+.block-github {
+    background-color: $github;
+    &:hover {
+        background-image:url('../../assets/img/github.png');
+    }
+}
+
+//inner blocks
+
+.block-container-single {
+    height:100%;
+    .block-content {
+        &:hover {
+            cursor: inherit;
+            background-color: transparent;
+            transform: translateX(0);
+        }
+    }
+    .block-random, .block-dribbble, .block-github {
+        &:hover {
+            background-image:none;
+        }
+    }
+    .block-random, .block-dribbble, .block-github {
+        height:100%;
+    }
+}
+
+//inner dribbble
+
+.block-dribbble {
+    .suggestionApp {
+        background-color:transparent;
+    }
+    .btn {
+        &:hover {
+            background-color:rgb(199, 199, 199);
+        }
+    }
+    .suggestionApp-prompts {
+        margin-top: 1em;
+    }
+    img {
+        max-width:100%;
+    }
+}
+
+//inner github
+
+.block-github {
+    .suggestionApp {
+        background-color:transparent;
+    }
+    .btn {
+        &:hover {
+            background-color:rgb(199, 199, 199);
+        }
+    }
+}
