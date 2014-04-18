@@ -199,6 +199,8 @@ body, html {
       float: none;
       padding: 0;
       border: none; }
+    .main-header a:nth-of-type(1) {
+      margin-left: 1em; }
   .main-header.home {
     position: relative; }
 

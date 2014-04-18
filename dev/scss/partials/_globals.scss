@@ -52,6 +52,9 @@ body, html {
             padding: 0;
             border: none;
         }
+        &:nth-of-type(1) {
+            margin-left: 1em;
+        }
     }
     &.home {
         position:relative;
