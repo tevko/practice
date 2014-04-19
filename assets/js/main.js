@@ -5,7 +5,7 @@
     });
     //random module
     if ($('.block-random').length) {
-        $.getJSON("random.json").done(function(data) {
+        $.getJSON('random.json').done(function(data) {
             counter = 0;
             $('span').text(data[0].value);
             $('.suggestionApp-action').click(function() {
