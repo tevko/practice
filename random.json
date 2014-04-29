@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Make a demo using Web Workers"
+    "value":"Make a demo using element queries"
   },
   {
     "item":2,
-    "value":"Make your own JSON file that you call via AJAX"
+    "value":"Use the css attr() expression in a demo"
   },
   {
     "item":3,
-    "value":"Make a demo using HTML5 local storage"
+    "value":"Make a demo explaining Intrinsic & Extrinsic Sizing for CSS"
   },
   {
     "item":4,
-    "value":"write a SASS function that uses an @if statement"
+    "value":"Make a pen explaining how to use git via the command line"
   },
   {
     "item":5,
-    "value":"build a demo that converts a google spreadsheet into valid JSON"
+    "value":"Print 10 divs out on a page, then use the SASS random() function to give them all random HSA color values"
   },
   {
     "item":6,
-    "value":"Make a tutorial that teaches beginners how to use git"
+    "value":"Make a demo that prints the users mouse coordinates to the page"
   },
   {
     "item":7,
-    "value":"Make a demo explaining and using web sockets"
+    "value":"Make a demo using the web notifications API"
   },
   {
     "item":8,
-    "value":"Build a single page web app"
+    "value":"Make a demo using picturefill 2!"
   },
   {
     "item":9,
-    "value":"Design a CSS logo based off of your last name, then animate it"
+    "value":"Make a javascript plugin that counts the number of css selectors used on a page"
   },
   {
     "item":10,
-    "value":"Write an ajax function with jQuery that uses a promise as a callback"
+    "value":"Redesign a website you often visit"
   },
   {
     "item":11,
-    "value":"Build a web app that provides definitions to standard javascript terms"
+    "value":"Build a checkers game"
   },
   {
     "item":12,
-    "value":"Build a set of SVG animated icons"
+    "value":"Make a demo that uses project naptha to select text on images"
   },
   {
     "item":13,
-    "value":"Make an HTML/CSS/JS metronome!"
+    "value":"Make a demo that uses responsive background images"
   },
   {
     "item":14,
-    "value":"Build a pacman game"
+    "value":"Build a set of interactive SVG icons"
   },
   {
     "item":15,
-    "value":"Build a canvas drawing app!"
+    "value":"Write some modular javascript"
   },
   {
     "item":16,
-    "value":"Build a slider that uses radio buttons to make it's transitions"
+    "value":"Build a javascript plugin that fills specially marked divs with stock images"
   },
   {
     "item":17,
-    "value":"Build a form. When a form element is filled in, make the page background change"
+    "value":"Make a rainbow out of CSS"
   },
   {
     "item":18,
-    "value":"Make your own jQuery plugin!"
+    "value":"Print some text out on a page. Give it a box shadow and animate it"
   },
   {
     "item":19,
-    "value":"Build a calculator"
+    "value":"Build a printer icon out of css. It should be animated"
   },
   {
     "item":20,
-    "value":"Build an interactive maze. Make it responsive"
+    "value":"Make a demo using the HTML5 geolocation API"
   }
 ]
