@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Make a demo using element queries"
+    "value":"Make a demo using the Array.prototype.every() method in javascript"
   },
   {
     "item":2,
-    "value":"Use the css attr() expression in a demo"
+    "value":"Make a demo explaining the modulo operator in javascript"
   },
   {
     "item":3,
-    "value":"Make a demo explaining Intrinsic & Extrinsic Sizing for CSS"
+    "value":"Make a demo featuring the HTML5 device orientation API"
   },
   {
     "item":4,
-    "value":"Make a pen explaining how to use git via the command line"
+    "value":"Make a presentation using reveal.js"
   },
   {
     "item":5,
-    "value":"Print 10 divs out on a page, then use the SASS random() function to give them all random HSA color values"
+    "value":"Build a static web app!"
   },
   {
     "item":6,
-    "value":"Make a demo that prints the users mouse coordinates to the page"
+    "value":"Code up a picture with a caption using the HTML5 figure element"
   },
   {
     "item":7,
-    "value":"Make a demo using the web notifications API"
+    "value":"Animate a picture using HTML and CSS"
   },
   {
     "item":8,
-    "value":"Make a demo using picturefill 2!"
+    "value":"Make a functional clock "
   },
   {
     "item":9,
-    "value":"Make a javascript plugin that counts the number of css selectors used on a page"
+    "value":"Build a set of pure css tabs"
   },
   {
     "item":10,
-    "value":"Redesign a website you often visit"
+    "value":"Make a demo using the :valid and :invalid css pseudo selectors"
   },
   {
     "item":11,
-    "value":"Build a checkers game"
+    "value":"Build two stick figures. They should both have swords. They should both be sword fighting"
   },
   {
     "item":12,
-    "value":"Make a demo that uses project naptha to select text on images"
+    "value":"Make a pirate ship with css"
   },
   {
     "item":13,
-    "value":"Make a demo that uses responsive background images"
+    "value":"Print 'Hello World' to the console"
   },
   {
     "item":14,
-    "value":"Build a set of interactive SVG icons"
+    "value":"Write your own responsive images plugin"
   },
   {
     "item":15,
-    "value":"Write some modular javascript"
+    "value":"Build a space ship with css! Bonus points if it's animated"
   },
   {
     "item":16,
-    "value":"Build a javascript plugin that fills specially marked divs with stock images"
+    "value":"Make your own custom web element using the polymer library"
   },
   {
     "item":17,
-    "value":"Make a rainbow out of CSS"
+    "value":"Replicate chrome's hidden URL function using a form element"
   },
   {
     "item":18,
-    "value":"Print some text out on a page. Give it a box shadow and animate it"
+    "value":"Pick a backend language and create a codepen collection that explains various parts of the language, then share it!"
   },
   {
     "item":19,
-    "value":"Build a printer icon out of css. It should be animated"
+    "value":"Make a small chat room app"
   },
   {
     "item":20,
-    "value":"Make a demo using the HTML5 geolocation API"
+    "value":"Build a Github theme for GH-Pages!"
   }
 ]
