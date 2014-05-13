@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Make a demo using the Array.prototype.every() method in javascript"
+    "value":"Make a demo using the window.postMessage() api"
   },
   {
     "item":2,
-    "value":"Make a demo explaining the modulo operator in javascript"
+    "value":"Use the .call() method in a pen"
   },
   {
     "item":3,
-    "value":"Make a demo featuring the HTML5 device orientation API"
+    "value":"Use the .apply() method in a pen"
   },
   {
     "item":4,
-    "value":"Make a presentation using reveal.js"
+    "value":"Write a CSS rule that only applies to a specific version of IE"
   },
   {
     "item":5,
-    "value":"Build a static web app!"
+    "value":"Write a SASS mixin to handle your media query breakpoints"
   },
   {
     "item":6,
-    "value":"Code up a picture with a caption using the HTML5 figure element"
+    "value":"Make a well styled demo using only unicode classes for html and css"
   },
   {
     "item":7,
-    "value":"Animate a picture using HTML and CSS"
+    "value":"Build some javascript templates using lodash.js"
   },
   {
     "item":8,
-    "value":"Make a functional clock "
+    "value":"Make a demo using the let keyword in javascript"
   },
   {
     "item":9,
-    "value":"Build a set of pure css tabs"
+    "value":"Make a collection in codepen that uses individual pens to define various HTML5 tags"
   },
   {
     "item":10,
-    "value":"Make a demo using the :valid and :invalid css pseudo selectors"
+    "value":"Make a demo that uses toggling data states instead of classes to handle interactive content"
   },
   {
     "item":11,
-    "value":"Build two stick figures. They should both have swords. They should both be sword fighting"
+    "value":"Make a button that goes from blurry to clear when you hover over it"
   },
   {
     "item":12,
-    "value":"Make a pirate ship with css"
+    "value":"Make a demo that turns a dropdown menu into a touch supported menu"
   },
   {
     "item":13,
-    "value":"Print 'Hello World' to the console"
+    "value":"Make a javascript snippet that tests for touch support"
   },
   {
     "item":14,
-    "value":"Write your own responsive images plugin"
+    "value":"Build a set of javascript animations that reach 60fps"
   },
   {
     "item":15,
-    "value":"Build a space ship with css! Bonus points if it's animated"
+    "value":"Make an SVG and then animate it!"
   },
   {
     "item":16,
-    "value":"Make your own custom web element using the polymer library"
+    "value":"Build a demo that explaines what OOP is"
   },
   {
     "item":17,
-    "value":"Replicate chrome's hidden URL function using a form element"
+    "value":"Re-design the Gmail dashboard"
   },
   {
     "item":18,
-    "value":"Pick a backend language and create a codepen collection that explains various parts of the language, then share it!"
+    "value":"Build a countdown timer"
   },
   {
     "item":19,
-    "value":"Make a small chat room app"
+    "value":"Make a circle change into a pentagon when you hover over it"
   },
   {
     "item":20,
-    "value":"Build a Github theme for GH-Pages!"
+    "value":"Make a fortune teller game using web workers"
   }
 ]
