@@ -44,14 +44,24 @@
 
         var foundShots = false;
 
+        function shuffle(sourceArray) {
+            for (var n = 0; n < sourceArray.length - 1; n++) {
+                var k = n + Math.floor(Math.random() * (sourceArray.length - n));
+                var temp = sourceArray[k];
+                sourceArray[k] = sourceArray[n];
+                sourceArray[n] = temp;
+            }
+        }
+
         function getDribbleShot() {
             var randomPageNumber = Math.floor(Math.random() * (50 - 1 + 1)) + 1;
-            var url = "https://api.dribbble.com/shots/everyone/?callback=?&page=" + randomPageNumber;   //get a random page of shots
+            var url = "https://api.dribbble.com/shots/everyone/?callback=?&page=" + randomPageNumber; //get a random page of shots
             console.log(url);
             $.ajax({
                 url: url,
                 dataType: 'jsonp'
             }).success(function(data) {
+                shuffle(data.shots); // mix up the order of the shots so we don't get the same one for each page every time
                 $.each(data.shots, function() {
                     var title = this.title.toLowerCase(); // use the title of each shot to figure out if it's web-related
                     var webElements = ['website', 'webpage', 'web page', 'tablet', 'phone', 'ios', 'ipad', 'iphone', 'android', 'homepage', 'home page', 'login', ' web ', ' ui ', 'mobile', ' form '], // keywords that would show up in a web design's title.
@@ -62,7 +72,7 @@
                             $('.suggestionApp-content')
                                 .append('<br>' + image + '<br>')
                                 .append(this.player.name + '<br>')
-                               .append('<a href="' + this.player.url + '">' + this.player.url + '</a>');
+                                .append('<a href="' + this.player.url + '">' + this.player.url + '</a>');
                             foundShots = true; // we found a shot! tell the rest of the script the good news
                         }
                     }
