@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Make a demo using the window.postMessage() api"
+    "value":"Write a SASS mixin that dynamically changes the background color of a block based on the color of the text inside of it"
   },
   {
     "item":2,
-    "value":"Use the .call() method in a pen"
+    "value":"Write a SASS mixin that changes up styles based on Modernizr support"
   },
   {
     "item":3,
-    "value":"Use the .apply() method in a pen"
+    "value":"Make a demo using the HTML5 color input functionality"
   },
   {
     "item":4,
-    "value":"Write a CSS rule that only applies to a specific version of IE"
+    "value":"Make a single element css spinner"
   },
   {
     "item":5,
-    "value":"Write a SASS mixin to handle your media query breakpoints"
+    "value":"Make a demo using the bind() method in javascript"
   },
   {
     "item":6,
-    "value":"Make a well styled demo using only unicode classes for html and css"
+    "value":"Make a set of CSS zoo animals"
   },
   {
     "item":7,
-    "value":"Build some javascript templates using lodash.js"
+    "value":"Make a demo using the famo.us library"
   },
   {
     "item":8,
-    "value":"Make a demo using the let keyword in javascript"
+    "value":"Make a demo using floatlabel.js"
   },
   {
     "item":9,
-    "value":"Make a collection in codepen that uses individual pens to define various HTML5 tags"
+    "value":"Make a full page demo that changes based on the current weather around the users location"
   },
   {
     "item":10,
-    "value":"Make a demo that uses toggling data states instead of classes to handle interactive content"
+    "value":"Design a new 404 page for the codepen website"
   },
   {
     "item":11,
-    "value":"Make a button that goes from blurry to clear when you hover over it"
+    "value":"Pick a random object and recreate it using HTML, CSS, and JS. Make it look as realistic as possible"
   },
   {
     "item":12,
-    "value":"Make a demo that turns a dropdown menu into a touch supported menu"
+    "value":"Make a demo featuring responsive pagination"
   },
   {
     "item":13,
-    "value":"Make a javascript snippet that tests for touch support"
+    "value":"Build a select menu in which each item has an icon next to it"
   },
   {
     "item":14,
-    "value":"Build a set of javascript animations that reach 60fps"
+    "value":"Make an unordered list in which the text doesn't wrap around the bullets"
   },
   {
     "item":15,
-    "value":"Make an SVG and then animate it!"
+    "value":"Build a bookshelf with a few of your favorite books sitting on it"
   },
   {
     "item":16,
-    "value":"Build a demo that explaines what OOP is"
+    "value":"Build a functional rubix cube"
   },
   {
     "item":17,
-    "value":"Re-design the Gmail dashboard"
+    "value":"Build a demo using the HTML5 file input functionality"
   },
   {
     "item":18,
-    "value":"Build a countdown timer"
+    "value":"Make a demo that uses a random dependency from cdnjs"
   },
   {
     "item":19,
-    "value":"Make a circle change into a pentagon when you hover over it"
+    "value":"Make a div that changes color every time you hover over it"
   },
   {
     "item":20,
-    "value":"Make a fortune teller game using web workers"
+    "value":"Start a codepen collection that demonstrates little known javascript methods"
   }
 ]
