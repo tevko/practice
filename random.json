@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Write a SASS mixin that dynamically changes the background color of a block based on the color of the text inside of it"
+    "value":"Get the value of a pseudo element in CSS using javascript"
   },
   {
     "item":2,
-    "value":"Write a SASS mixin that changes up styles based on Modernizr support"
+    "value":"Make a demo featuring the touch-action property for css"
   },
   {
     "item":3,
-    "value":"Make a demo using the HTML5 color input functionality"
+    "value":"Create a SASS mixin that generates css triangles"
   },
   {
     "item":4,
-    "value":"Make a single element css spinner"
+    "value":"Make a demo that uses the IndexedDB API"
   },
   {
     "item":5,
-    "value":"Make a demo using the bind() method in javascript"
+    "value":"Make a demo using element.animate() in the latest version of chrome"
   },
   {
     "item":6,
-    "value":"Make a set of CSS zoo animals"
+    "value":"build a header that becomes visible when the user starts to scroll up"
   },
   {
     "item":7,
-    "value":"Make a demo using the famo.us library"
+    "value":"Make a demo that features the Ambient Light API"
   },
   {
     "item":8,
-    "value":"Make a demo using floatlabel.js"
+    "value":"Make a demo using css blend modes"
   },
   {
     "item":9,
-    "value":"Make a full page demo that changes based on the current weather around the users location"
+    "value":"Build a select menu without using the select element. It should be useable without a mouse"
   },
   {
     "item":10,
-    "value":"Design a new 404 page for the codepen website"
+    "value":"Build a select menu that allows the user to select multiple items"
   },
   {
     "item":11,
-    "value":"Pick a random object and recreate it using HTML, CSS, and JS. Make it look as realistic as possible"
+    "value":"Build a working email template with an HTML5 video background"
   },
   {
     "item":12,
-    "value":"Make a demo featuring responsive pagination"
+    "value":"Build a landing page using DynCSS"
   },
   {
     "item":13,
-    "value":"Build a select menu in which each item has an icon next to it"
+    "value":"Build a demo that creates a maze that the user can try to solve"
   },
   {
     "item":14,
-    "value":"Make an unordered list in which the text doesn't wrap around the bullets"
+    "value":"animate an svg element"
   },
   {
     "item":15,
-    "value":"Build a bookshelf with a few of your favorite books sitting on it"
+    "value":"build a modual that loads a sharing widget only when a button is clicked"
   },
   {
     "item":16,
-    "value":"Build a functional rubix cube"
+    "value":"Create a widget that dynamically resizes images placed inside of it"
   },
   {
     "item":17,
-    "value":"Build a demo using the HTML5 file input functionality"
+    "value":"Make a demo that uses PlaceImg"
   },
   {
     "item":18,
-    "value":"Make a demo that uses a random dependency from cdnjs"
+    "value":"Animate the logo of your favorite github repo"
   },
   {
     "item":19,
-    "value":"Make a div that changes color every time you hover over it"
+    "value":"Build an interactive deo that guides users through basic python syntax"
   },
   {
     "item":20,
-    "value":"Start a codepen collection that demonstrates little known javascript methods"
+    "value":"Build a javascript plugin that adds visualizations to math formulas"
   }
 ]
