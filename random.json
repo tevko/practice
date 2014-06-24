@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Get the value of a pseudo element in CSS using javascript"
+    "value":"Make a demo using the content editable attribute in HTML5"
   },
   {
     "item":2,
-    "value":"Make a demo featuring the touch-action property for css"
+    "value":"Build an off canvas navigation pattern that works in IE8"
   },
   {
     "item":3,
-    "value":"Create a SASS mixin that generates css triangles"
+    "value":"Build an html5 form with client side validation"
   },
   {
     "item":4,
-    "value":"Make a demo that uses the IndexedDB API"
+    "value":"Animate an inline svg icon"
   },
   {
     "item":5,
-    "value":"Make a demo using element.animate() in the latest version of chrome"
+    "value":"Make a demo that uses the accesskey attribute"
   },
   {
     "item":6,
-    "value":"build a header that becomes visible when the user starts to scroll up"
+    "value":"Build a demo that uses the tabindex attribute"
   },
   {
     "item":7,
-    "value":"Make a demo that features the Ambient Light API"
+    "value":"Make a demo that explains everything you can do in css to control hyphenation"
   },
   {
     "item":8,
-    "value":"Make a demo using css blend modes"
+    "value":"Build a demo with d3.js"
   },
   {
     "item":9,
-    "value":"Build a select menu without using the select element. It should be useable without a mouse"
+    "value":"Build something that uses the HTML5 history API"
   },
   {
     "item":10,
-    "value":"Build a select menu that allows the user to select multiple items"
+    "value":"Create a particle demo in a canvas element"
   },
   {
     "item":11,
-    "value":"Build a working email template with an HTML5 video background"
+    "value":"Build a to-do list app with angular"
   },
   {
     "item":12,
-    "value":"Build a landing page using DynCSS"
+    "value":"Make some layered fonts with css"
   },
   {
     "item":13,
-    "value":"Build a demo that creates a maze that the user can try to solve"
+    "value":"Build a game using only css"
   },
   {
     "item":14,
-    "value":"animate an svg element"
+    "value":"Write some curried javascript"
   },
   {
     "item":15,
-    "value":"build a modual that loads a sharing widget only when a button is clicked"
+    "value":"Build an inline text editor"
   },
   {
     "item":16,
-    "value":"Create a widget that dynamically resizes images placed inside of it"
+    "value":"Build a full page portfolio template"
   },
   {
     "item":17,
-    "value":"Make a demo that uses PlaceImg"
+    "value":"Write a javascript snippet that checks if the <picture> element is supported in a users browser"
   },
   {
     "item":18,
-    "value":"Animate the logo of your favorite github repo"
+    "value":"Make an animation that repeats indefinitely"
   },
   {
     "item":19,
-    "value":"Build an interactive deo that guides users through basic python syntax"
+    "value":"Use canvas to draw a shark with laser beams on its head"
   },
   {
     "item":20,
-    "value":"Build a javascript plugin that adds visualizations to math formulas"
+    "value":"Make an auto generator that generates different styles of beards"
   }
 ]
