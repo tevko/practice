@@ -1,4 +1,4 @@
-(function($ , window , undefined) {
+(function($, window, undefined) {
     //global stuff
     $('.suggestionApp-action').click(function(event) {
         event.preventDefault();
@@ -12,7 +12,7 @@
                 var build = 20;
                 counter = (counter + 1) % build;
                 $('span').text(data[counter].value);
-                if(counter == 19) {
+                if (counter == 19) {
                     alert('That\'s 20 items! Come back next week for 20 more!');
                 }
             });
@@ -27,8 +27,7 @@
                 $('.suggestionApp-content')
                     .append('<br>' + data[randomNumber].name + '<br>')
                     .append(data[randomNumber].description + '<br>')
-                    .append('<a href="' + data[randomNumber].html_url + '" target="_blank">' + data[randomNumber].html_url +'</a>'
-                );
+                    .append('<a href="' + data[randomNumber].html_url + '" target="_blank">' + data[randomNumber].html_url + '</a>');
             });
         }
         getGitRepo();
@@ -38,24 +37,61 @@
         });
     }
     //dribble module
+
+    // Getting only shots of web design is tricky because you can't query the API
+
     if ($('.block-dribbble').length) {
+
+        var foundShots = false;
+
+        function shuffle(sourceArray) {
+            for (var n = 0; n < sourceArray.length - 1; n++) {
+                var k = n + Math.floor(Math.random() * (sourceArray.length - n));
+                var temp = sourceArray[k];
+                sourceArray[k] = sourceArray[n];
+                sourceArray[n] = temp;
+            }
+        }
+
         function getDribbleShot() {
-            var randomPageNumber = Math.floor(Math.random() * (29 - 1 + 1)) + 1;
-            $.getJSON( "http://api.dribbble.com/shots/everyone/?callback=?", { page: randomPageNumber }).done(function(page) {
-                var dribbleImg = $(page.shots);
-                var randomNumber = Math.floor(Math.random() * (14 - 1 + 1)) + 1;
-                var image = '<img src="' + dribbleImg[randomNumber].image_url + '"/>';
-                $('.suggestionApp-content')
-                    .append('<br>' + image + '<br>')
-                    .append( dribbleImg[randomNumber].player.name + '<br>')
-                    .append('<a href="' + dribbleImg[randomNumber].player.url + '">' + dribbleImg[randomNumber].player.url +'</a>'
-                );
+            var randomPageNumber = Math.floor(Math.random() * (50 - 1 + 1)) + 1;
+            var url = "https://api.dribbble.com/shots/everyone/?callback=?&page=" + randomPageNumber; //get a random page of shots
+            console.log(url);
+            $.ajax({
+                url: url,
+                dataType: 'jsonp'
+            }).success(function(data) {
+                shuffle(data.shots); // mix up the order of the shots so we don't get the same one for each page every time
+                $.each(data.shots, function() {
+                    var title = this.title.toLowerCase(); // use the title of each shot to figure out if it's web-related
+                    var webElements = ['website', 'webpage', 'web page', 'tablet', 'phone', 'ios', 'ipad', 'iphone', 'android', 'homepage', 'home page', 'login', ' web ', ' ui ', 'mobile', ' form '], // keywords that would show up in a web design's title.
+                        length = webElements.length;
+                    while (length--) {
+                        if ((title.indexOf(webElements[length]) != -1) && (foundShots == false)) { // If the title contains any of the keywords, grab the shot
+                            var image = '<img src="' + this.image_url + '"/>';
+                            $('.suggestionApp-content')
+                                .append('<br>' + image + '<br>')
+                                .append(this.player.name + '<br>')
+                                .append('<a href="' + this.player.url + '">' + this.player.url + '</a>');
+                            foundShots = true; // we found a shot! tell the rest of the script the good news
+                        }
+                    }
+                });
+                if (foundShots == true) {
+                    return; // stop the function if we found a shot already
+                } else {
+                    getDribbleShot(); // if we didn't find a shot, go get another page of results and repeat the process until we find one (or dribble rate-limits us)
+                }
             });
         }
+
         getDribbleShot();
+
         $('.suggestionApp-action').click(function() {
             $('.suggestionApp-content').empty();
+            foundShots = false;
             getDribbleShot();
+
         });
     }
-})(jQuery , window );
+})(jQuery, window);
