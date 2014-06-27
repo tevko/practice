@@ -209,7 +209,7 @@ body, html {
   .main-header.home {
     position: relative; }
 
-.btn, form {
+.btn {
   font-size: 0.5em;
   text-decoration: none;
   color: white;
@@ -220,6 +220,7 @@ body, html {
   display: inline-block; }
 
 form {
+  display: inline-block;
   margin-left: 1em; }
   form input {
     background-color: transparent;
