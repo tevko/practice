@@ -209,7 +209,7 @@ body, html {
   .main-header.home {
     position: relative; }
 
-.btn, form {
+.btn {
   font-size: 0.5em;
   text-decoration: none;
   color: white;
@@ -220,6 +220,7 @@ body, html {
   display: inline-block; }
 
 form {
+  display: inline-block;
   margin-left: 1em; }
   form input {
     background-color: transparent;
@@ -258,7 +259,6 @@ form {
     -ms-transform: translateX(20%);
     transform: translateX(20%); }
 
-
 .block-random {
   background-color: #262642; }
   .block-random:hover {
@@ -289,7 +289,7 @@ form {
 
 .block-dribbble .suggestionApp {
   background-color: transparent; }
-.block-dribbble .btn:hover, .block-dribbble form:hover {
+.block-dribbble .btn:hover {
   background-color: #c7c7c7; }
 .block-dribbble .suggestionApp-prompts {
   margin-top: 1em; }
@@ -298,7 +298,7 @@ form {
 
 .block-github .suggestionApp {
   background-color: transparent; }
-.block-github .btn:hover, .block-github form:hover {
+.block-github .btn:hover {
   background-color: #c7c7c7; }
 
 .suggestionApp {
