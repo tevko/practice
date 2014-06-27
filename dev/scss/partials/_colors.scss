@@ -18,7 +18,7 @@ $dribbble: #de467f;
 }
 
 form {
-    @extend .btn;
+    display: inline-block;
     margin-left:1em;
     input {
         background-color:transparent;
