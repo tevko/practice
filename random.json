@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Make a demo using the HTML5 gamepad API"
+    "value":"Make a demo using the max-content property in CSS"
   },
   {
     "item":2,
-    "value":"Make a demi using the <qr-code> web component element"
+    "value":"Make a demo using a switch statement in javascript"
   },
   {
     "item":3,
-    "value":"Make your own SASS grid"
+    "value":"Build an HTML table"
   },
   {
     "item":4,
-    "value":"Make an 8-bit character in CSS using the box-shadow property"
+    "value":"Build a demo using the figure element"
   },
   {
     "item":5,
-    "value":"Make a demo with a full responsive background image"
+    "value":"Build a theme for Bootstrap"
   },
   {
     "item":6,
-    "value":"Use CSS Shrink to compress some css"
+    "value":"Build something with Velocity.js"
   },
   {
     "item":7,
-    "value":"Re-create your favorite cartoon character in CSS"
+    "value":"Create a pocketwatch with HTML and CSS"
   },
   {
     "item":8,
-    "value":"Use a CSS overlay to colorize a video"
+    "value":"Build an online media player"
   },
   {
     "item":9,
-    "value":"Use javascript to add divs to a page on the click of a button"
+    "value":"Re-create your Résumé using Json Résumé"
   },
   {
     "item":10,
-    "value":"Make a demo using the range input type"
+    "value":"Build a resonsive menu with Polymer"
   },
   {
     "item":11,
-    "value":"Animate an SVG"
+    "value":"Create an unordered list, using css to hide the bullets"
   },
   {
     "item":12,
-    "value":"Build your countries flag using CSS background gradients"
+    "value":"Re-design the interface of your favorite app"
   },
   {
     "item":13,
-    "value":"Add some custom styles to a select element"
+    "value":"Build a demo that looks and acts like a flipbook style animation"
   },
   {
     "item":14,
-    "value":"Build a working pinball game using HTML, CSS, and Javascript"
+    "value":"Add a gradient overlay to a background image"
   },
   {
     "item":15,
-    "value":"Build something cool using Googles new style guidlines"
+    "value":"Use Adobe's CSS Shapes pollyfill"
   },
   {
     "item":16,
-    "value":"Make a tetris game using HTML, CSS, and Javascript"
+    "value":"Use javascript to detect which device is viewing your codepen demo"
   },
   {
     "item":17,
-    "value":"Make a demo using the CSS grid spec"
+    "value":"Make a demo featuring layered font"
   },
   {
     "item":18,
-    "value":"Design your favorite playlist. Make it work with the Web Audio API"
+    "value":"Build a sortable grid"
   },
   {
     "item":19,
-    "value":"Build a clock using the HTML time element"
+    "value":"Build a sound sequencer using HTML, CSS, and Javascript"
   },
   {
     "item":20,
-    "value":"Build a working piano keyboard"
+    "value":"Build a blimp with HTML and CSS"
   }
 ]
