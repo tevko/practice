@@ -102,6 +102,12 @@
 //inner github
 
 .block-github {
+    code {
+        padding: 3px 0;
+        background-color: gray;
+        color: black;
+    }
+    padding-top: 3em;
     .suggestionApp {
         background-color:transparent;
     }
@@ -109,5 +115,15 @@
         &:hover {
             background-color:rgb(199, 199, 199);
         }
+    }
+    .suggestionApp-content {
+        font-size: .75em;
+        text-align: left;
+        img {
+            max-width: 100%;
+        }
+    }
+    .suggestionApp-prompts {
+        margin-bottom: 1em;
     }
 }

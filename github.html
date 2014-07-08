@@ -29,8 +29,12 @@
             <div class="block-content">
                 <div class="suggestionApp">
                     <p class="suggestionApp-content">
-                        <span>
-                        </span>
+                        <script class="template" type="solvegit/js">
+                            <h1><%= items[randRepo].title %></h1>
+                            <p class="markdown"><%= items[randRepo].body %></p>
+                            <a href= '<%= items[randRepo].html_url %>'><%= items[randRepo].html_url %></a>
+                            <div><%= items[randRepo].created_at %></div>
+                        </script>
                     </p>
                     <div class="suggestionApp-prompts">
                         <a class="suggestionApp-action btn" href="#">No thanks.</a>
@@ -47,7 +51,10 @@
             </div>
         </article>
     </section>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagedown/1.0/Markdown.Converter.js"></script>
     <script src="assets/js/main.min.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,7 +66,6 @@
         ga('send', 'pageview');
     </script>
     <!--dev only -->
-
 </body>
 
 </html>

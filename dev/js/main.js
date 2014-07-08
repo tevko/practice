@@ -18,25 +18,6 @@
             });
         });
     }
-    //github module
-    if ($('.block-github').length) {
-        function getGitRepo() {
-            var randomPageNumber = Math.floor(Math.random() * (10000000 - 1 + 1)) + 1;
-            $.getJSON("https://api.github.com/repositories?since=" + randomPageNumber).done(function(data) {
-                var randomNumber = Math.floor(Math.random() * (99 - 1 + 1)) + 1;
-                $('.suggestionApp-content')
-                    .append('<br>' + data[randomNumber].name + '<br>')
-                    .append(data[randomNumber].description + '<br>')
-                    .append('<a href="' + data[randomNumber].html_url + '" target="_blank">' + data[randomNumber].html_url +'</a>'
-                );
-            });
-        }
-        getGitRepo();
-        $('.suggestionApp-action').click(function() {
-            $('.suggestionApp-content').empty();
-            getGitRepo();
-        });
-    }
     //dribble module
     if ($('.block-dribbble').length) {
         function getDribbleShot() {

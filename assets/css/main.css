@@ -259,6 +259,7 @@ form {
     -ms-transform: translateX(20%);
     transform: translateX(20%); }
 
+
 .block-random {
   background-color: #262642; }
   .block-random:hover {
@@ -296,10 +297,23 @@ form {
 .block-dribbble img {
   max-width: 100%; }
 
-.block-github .suggestionApp {
-  background-color: transparent; }
-.block-github .btn:hover {
-  background-color: #c7c7c7; }
+.block-github {
+  padding-top: 3em; }
+  .block-github code {
+    padding: 3px 0;
+    background-color: gray;
+    color: black; }
+  .block-github .suggestionApp {
+    background-color: transparent; }
+  .block-github .btn:hover {
+    background-color: #c7c7c7; }
+  .block-github .suggestionApp-content {
+    font-size: 0.75em;
+    text-align: left; }
+    .block-github .suggestionApp-content img {
+      max-width: 100%; }
+  .block-github .suggestionApp-prompts {
+    margin-bottom: 1em; }
 
 .suggestionApp {
   max-width: 75%;
