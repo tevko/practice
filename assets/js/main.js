@@ -24,6 +24,9 @@ if ($('.block-github').length) {
             async:false,
             success: function(data) {
                 return data;
+            },
+            fail: function() {
+                alert('Woops, something went wrong! Please file an issue on Github!')
             }
         }).responseText);
     }
@@ -47,6 +50,7 @@ if ($('.block-github').length) {
             $('.markdown').empty();
             $('.markdown').append(newText);
         });
+        $('#solve').attr('href', dataObj.items[randRepo].html_url);
 
         if(dataObj.items[randRepo].pull_request) {
             $('.suggestionApp-action').trigger('click');

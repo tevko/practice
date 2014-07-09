@@ -21,7 +21,7 @@
     <![endif]-->
         <section class="pageContent block-container-single">
             <header class="main-header group">
-                <p>Build Something Related to this Github Repo!</p>
+                <p>Solve This Random Github Issue!</p>
                 <a class="home-link" href="https://github.com/tevko/practice">Github</a>
                 <a class="home-link" href="index.html">Home</a>
             </header>
@@ -32,20 +32,12 @@
                         <script class="template" type="solvegit/js">
                             <h1><%= items[randRepo].title %></h1>
                             <p class="markdown"><%= items[randRepo].body %></p>
-                            <a href= '<%= items[randRepo].html_url %>'><%= items[randRepo].html_url %></a>
                             <div><%= items[randRepo].created_at %></div>
                         </script>
                     </p>
                     <div class="suggestionApp-prompts">
                         <a class="suggestionApp-action btn" href="#">No thanks.</a>
-                        <form action="http://codepen.io/pen/define" method="POST" target="_blank">
-                            <input type="hidden" name="data" value='{
-                            "title": "New Pen from The Practice App!",
-                            "html": "<span><a href=\"http://tevko.github.io/practice\">Check out The Practice App!</a></span>",
-                            "css": "span{ position: absolute;top: 1px;right: 1px; }"}'
-                            />
-                            <input class="btn" type="submit" value="Okay, I'll do it!" />
-                        </form>
+                        <a id="solve" class="btn" href="#">Let's Solve It!</a>
                     </div>
                 </div>
             </div>
