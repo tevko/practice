@@ -9,4 +9,4 @@ Get inspiration, build something on codepen
 
 [Dribbble](http://tevko.github.io/practice/dribbble.html) - See a random dribbble shot, go to codepen, convert it to code
 
-[Github](http://tevko.github.io/practice/github.html) - Solve a random open Github issue 
+[Github](http://timkarnold.github.io/practice/github.html) - Solve a random open Github issue 
