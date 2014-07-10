@@ -39,7 +39,7 @@ if ($('.block-github').length) {
         // if we've clicked the button 30 times, get a new set of results from github
         if (randRepo == 29) {
             getRandPage();
-            dataObj = getJson("https://api.github.com/search/issues?q=state%3Aopen&page=" + randPage);
+            dataObj = getJson("https://api.github.com/search/issues?q=state%3Aopen" + language + "&page=" + randPage);
         }
         $('.suggestionApp-content').empty();
         $('.suggestionApp-content').append(compile(dataObj)).promise().done(function() {
