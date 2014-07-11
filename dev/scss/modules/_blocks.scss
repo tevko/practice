@@ -101,11 +101,21 @@
 
 //inner github
 
+.suggestionApp-languages {
+    color: gray;
+    margin: 1em 0;
+}
+
 .block-github {
     code {
         padding: 3px 0;
         background-color: gray;
         color: black;
+        max-width: 100%;
+    }
+
+    pre {
+        overflow: visible;
     }
 
     .suggestionApp {
@@ -120,6 +130,8 @@
     .suggestionApp-content {
         font-size: .75em;
         text-align: left;
+        max-width: 1200px;
+        word-break: break-word;
         img {
             max-width: 100%;
         }
@@ -127,4 +139,10 @@
     .suggestionApp-prompts {
         margin-bottom: 1em;
     }
+}
+
+.content-holder {
+    position: relative;
+    overflow: hidden;
+    max-height: 600px;
 }

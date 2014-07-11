@@ -1,5 +1,6 @@
 if ($('.block-github').length) {
 
+    alert('keyboard shortcuts enabled! Press the right arrow for a new issue and the enter key to solve!');
     //variables
 
     var randPage = Math.floor(Math.random() * 34),
@@ -8,6 +9,7 @@ if ($('.block-github').length) {
         },
         randRepo = 0,
         build = 30,
+        language = '',
         dataObj = getJson("https://api.github.com/search/issues?q=state%3Aopen&page=" + randPage),
         template = $('.template').html(),
         compile = _.template(template);
@@ -38,7 +40,7 @@ if ($('.block-github').length) {
         // if we've clicked the button 30 times, get a new set of results from github
         if (randRepo == 29) {
             getRandPage();
-            dataObj = getJson("https://api.github.com/search/issues?q=state%3Aopen&page=" + randPage);
+            dataObj = getJson("https://api.github.com/search/issues?q=state%3Aopen" + language + "&page=" + randPage);
         }
         $('.suggestionApp-content').empty();
         $('.suggestionApp-content').append(compile(dataObj)).promise().done(function() {
@@ -50,15 +52,37 @@ if ($('.block-github').length) {
             $('.markdown').empty();
             $('.markdown').append(newText);
         });
+        link = dataObj.items[randRepo].html_url;
         $('#solve').attr('href', dataObj.items[randRepo].html_url);
-
         if(dataObj.items[randRepo].pull_request) {
             $('.suggestionApp-action').trigger('click');
             console.log('we\'re skipping pull requests');
         }
     }
     solveGit();
+    //keyboard shortcut
+    Mousetrap.bind('right', function() {
+        solveGit();
+        $('.content-holder').perfectScrollbar('update');
+    });
+    Mousetrap.bind('enter', function() {
+        window.open(link, '_blank');
+        console.log('enter');
+    });
+    //clicking the button
     $('.suggestionApp-action').click(function() {
         solveGit();
+        $('.content-holder').perfectScrollbar('update');
+    });
+
+    $('#language-select').change(function(){
+        randRepo = 28;
+        if ($('#language-select').val()) {
+            language = '&language:'+$('#language-select').val();
+        } else {
+            language = '';
+        }
+        solveGit();
+        $('.content-holder').perfectScrollbar('update');
     });
 }
