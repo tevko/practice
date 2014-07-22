@@ -1,82 +1,82 @@
 [
   {
     "item":1,
-    "value":"Make a demo using the max-content property in CSS"
+    "value":"Remove some HTML from a page using jQuery"
   },
   {
     "item":2,
-    "value":"Make a demo using a switch statement in javascript"
+    "value":"Build a working calculater"
   },
   {
     "item":3,
-    "value":"Build an HTML table"
+    "value":"Make a demo that explains javascript's createNodeIterator() method"
   },
   {
     "item":4,
-    "value":"Build a demo using the figure element"
+    "value":"If you have Chrome 36, make something using javascript's Object.observe method"
   },
   {
     "item":5,
-    "value":"Build a theme for Bootstrap"
+    "value":"Build something with three.js"
   },
   {
     "item":6,
-    "value":"Build something with Velocity.js"
+    "value":"Make a CSS animation of a tiny spaceship landing on the moon"
   },
   {
     "item":7,
-    "value":"Create a pocketwatch with HTML and CSS"
+    "value":"Make a CSS grid without using floats"
   },
   {
     "item":8,
-    "value":"Build an online media player"
+    "value":"build a full page demo with a rectangle that stays vertically aligned when you resize the window"
   },
   {
     "item":9,
-    "value":"Re-create your Résumé using Json Résumé"
+    "value":"Build a responsive email template"
   },
   {
     "item":10,
-    "value":"Build a resonsive menu with Polymer"
+    "value":"Create a jQuery plugin that makes tooltips"
   },
   {
     "item":11,
-    "value":"Create an unordered list, using css to hide the bullets"
+    "value":"Write a javascript function that calls the google translate API"
   },
   {
     "item":12,
-    "value":"Re-design the interface of your favorite app"
+    "value":"Redesign your twitter profile"
   },
   {
     "item":13,
-    "value":"Build a demo that looks and acts like a flipbook style animation"
+    "value":"Build a connect 4 game"
   },
   {
     "item":14,
-    "value":"Add a gradient overlay to a background image"
+    "value":"Using SVG, create an animation that features Darth Vader fighting Mickey Mouse"
   },
   {
     "item":15,
-    "value":"Use Adobe's CSS Shapes pollyfill"
+    "value":"Embed a youtube video"
   },
   {
     "item":16,
-    "value":"Use javascript to detect which device is viewing your codepen demo"
+    "value":"Find a way to truancate multiline text"
   },
   {
     "item":17,
-    "value":"Make a demo featuring layered font"
+    "value":"Build an ajax spinner using only CSS"
   },
   {
     "item":18,
-    "value":"Build a sortable grid"
+    "value":"Build a security camera that follows your mouse"
   },
   {
     "item":19,
-    "value":"Build a sound sequencer using HTML, CSS, and Javascript"
+    "value":"Create an empty picture frame that connects to the users webcam. When they click a button, the webcam should take a picture and place it in the frame"
   },
   {
     "item":20,
-    "value":"Build a blimp with HTML and CSS"
+    "value":"Extend the Object prototype in javascript"
   }
 ]

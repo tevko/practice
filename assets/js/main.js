@@ -44,12 +44,13 @@ if ($('.block-github').length) {
         }
         $('.suggestionApp-content').empty();
         $('.suggestionApp-content').append(compile(dataObj)).promise().done(function() {
-            var converter = new Markdown.Converter(),
+            var converter = Markdown.getSanitizingConverter(),
             text = $('.markdown').contents().filter(function() {
                 return this.nodeType == 3;
             }).text(),
             newText = converter.makeHtml(text);
             $('.markdown').empty();
+            console.log(newText);
             $('.markdown').append(newText);
         });
         link = dataObj.items[randRepo].html_url;
