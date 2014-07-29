@@ -163,7 +163,8 @@ td, th {
 
 body, html {
   overflow-x: hidden;
-  height: 100%; }
+  height: 100%;
+  font-family: 'Open Sans', sans-serif; }
 
 .wrap {
   max-width: 1200px;
@@ -203,6 +204,22 @@ body, html {
       margin-left: 1em; }
   .main-header.home {
     position: relative; }
+
+.items-notice {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  font-size: 0em;
+  padding: 1em;
+  transform: translateY(-2%);
+  transition: 0.25s ease all;
+  position: absolute; }
+
+.items-notice_show {
+  display: block;
+  transform: translateY(71%);
+  font-size: 2em; }
 
 .btn {
   font-size: 0.5em;

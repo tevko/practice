@@ -94,6 +94,13 @@ if ($('.block-github').length) {
     });
     //random module
     if ($('.block-random').length) {
+        function itemsNotice() {
+            $('.items-notice').removeClass('items-notice_show');
+            $('.items-notice').addClass('items-notice_show');
+            setTimeout(function() {
+                $('.items-notice').removeClass('items-notice_show');
+            }, 5000);
+        }
         $.getJSON('random.json').done(function(data) {
             counter = 0;
             $('span').text(data[0].value);
@@ -102,7 +109,7 @@ if ($('.block-github').length) {
                 counter = (counter + 1) % build;
                 $('span').text(data[counter].value);
                 if(counter == 19) {
-                    alert('That\'s 20 items! Come back next week for 20 more!');
+                    itemsNotice();
                 }
             });
         });
