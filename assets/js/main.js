@@ -107,6 +107,8 @@ if ($('.block-github').length) {
             $('.suggestionApp-action').click(function() {
                 var build = 20;
                 counter = (counter + 1) % build;
+                var progressWidth = counter * 5.2631579;
+                $('.progress').css('width', progressWidth + '%');
                 $('span').text(data[counter].value);
                 if(counter == 19) {
                     itemsNotice();

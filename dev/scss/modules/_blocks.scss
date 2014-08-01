@@ -43,6 +43,14 @@
     &:hover {
         background-image:url('../../assets/img/practice.png');
     }
+    .progress {
+        background-color: orange;
+        height: 5px;
+        transition: .5s ease;
+        position: fixed;
+        top: 75px;
+        left: 0;
+    }
 }
 
 .block-dribbble {

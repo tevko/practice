@@ -383,6 +383,13 @@ form {
   background-color: #262642; }
   .block-random:hover {
     background-image: url('../../assets/img/practice.png'); }
+  .block-random .progress {
+    background-color: orange;
+    height: 5px;
+    transition: 0.5s ease;
+    position: fixed;
+    top: 75px;
+    left: 0; }
 
 .block-dribbble {
   background-color: #de467f; }
