@@ -1,82 +1,102 @@
 [
   {
     "item":1,
-    "value":"Make a demo using and explaining the TreeWalker interface in Javascript"
+    "value":"Build a flexbox grid",
+    "Difficulty":"Advanced"
   },
   {
     "item":2,
-    "value":"Build a markdown compiler in Javascript"
+    "value":"Make a demo using the battery status API",
+    "Difficulty":"Intermediate"
   },
   {
     "item":3,
-    "value":"Build a widget that sanitizes an input field"
+    "value":"Use React to get/manipulate data from an API",
+    "Difficulty":"Advanced"
   },
   {
     "item":4,
-    "value":"Make a button that lets a user print the current page"
+    "value":"Use CSS to make some text flow from right to left",
+    "Difficulty":"Easy"
   },
   {
     "item":5,
-    "value":"Build something with Knockout.js"
+    "value":"Make a demo demonstrating the use of Array.prototype.some()",
+    "Difficulty":"Intermediate"
   },
   {
     "item":6,
-    "value":"Build a demo using CSS Columns"
+    "value":"Build a CSS circle that changes color when the user hovers over it",
+    "Difficulty":"Easy"
   },
   {
     "item":7,
-    "value":"Buld a 3D box in CSS"
+    "value":"Write a media query that targets device orientations",
+    "Difficulty":"Easy"
   },
   {
     "item":8,
-    "value":"Build a demo that allows the user to resize a div with their cursor. You can only use css"
+    "value":"Create an HTML5 Video Playlist",
+    "Difficulty":"Advanced"
   },
   {
     "item":9,
-    "value":"Write a javascript function that takes another function as a parameter"
+    "value":"Turn a list into an Array using $.makeArray",
+    "Difficulty":"Intermediate"
   },
   {
     "item":10,
-    "value":"Write a javascript function that gets the value of a data attribute"
+    "value":"Make a css animation that uses step easing",
+    "Difficulty":"Intermediate"
   },
   {
     "item":11,
-    "value":"Animate a div without using css"
+    "value":"Turn a list of arrays into one large array",
+    "Difficulty":"Intermediate"
   },
   {
     "item":12,
-    "value":"Add some styles to an audio element (you can use a library)"
+    "value":"Change the style of a link using the :focus attribute",
+    "Difficulty":"Easy"
   },
   {
     "item":13,
-    "value":"Make a variable in SASS"
+    "value":"Build a tabs widget without javascript",
+    "Difficulty":"Intermediate"
   },
   {
     "item":14,
-    "value":"Make a variable in LESS"
+    "value":"Build a parallax demo without using javascript",
+    "Difficulty":"Advanced"
   },
   {
     "item":15,
-    "value":"Use polymer to create a custom Youtube embed element"
+    "value":"Change the outline color of a button after it's been clicked on",
+    "Difficulty":"Easy"
   },
   {
     "item":16,
-    "value":"Make a self drawing SVG animation"
+    "value":"Use a transition to fade an element to 0 opacity when it's hovered on",
+    "Difficulty":"Easy"
   },
   {
     "item":17,
-    "value":"Build a stopwatch"
+    "value":"Build a GUI that can be used to manipulate a set of Javascript functions",
+    "Difficulty":"Advanced"
   },
   {
     "item":18,
-    "value":"Build a css only loading animation"
+    "value":"Build a placeholder image generator using data attributes and the dribbble API",
+    "Difficulty":"Intermediate"
   },
   {
     "item":19,
-    "value":"Make a bird with HTML and CSS"
+    "value":"Build an svg to data uri converter",
+    "Difficulty":"Advanced"
   },
   {
     "item":20,
-    "value":"Build a custom select elment"
+    "value":"Place a div on a page and use javascript to put text inside of it. No jQuery!",
+    "Difficulty":"Easy"
   }
 ]

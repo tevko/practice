@@ -222,7 +222,8 @@ body, html {
   transform: translateY(-2%);
   -webkit-transition: 0.25s ease all;
   transition: 0.25s ease all;
-  position: absolute; }
+  position: absolute;
+  z-index: 5; }
 
 .items-notice_show {
   display: block;
@@ -375,7 +376,6 @@ form {
     -ms-transform: translateX(20%);
     transform: translateX(20%); }
 
-
 .block-random {
   background-color: #262642; }
   .block-random:hover {
@@ -388,6 +388,12 @@ form {
     position: fixed;
     top: 75px;
     left: 0; }
+  .block-random .suggestionApp-level {
+    display: block;
+    margin: 0 auto;
+    width: 205px;
+    margin-top: 1.5em;
+    padding: 5px; }
 
 .block-dribbble {
   background-color: #de467f; }

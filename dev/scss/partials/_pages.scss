@@ -10,6 +10,7 @@
     transform: translateY(-2%);
     transition: .25s ease all;
     position: absolute;
+    z-index: 5;
 }
 
 .items-notice_show {

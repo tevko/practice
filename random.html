@@ -38,13 +38,14 @@
                     <div class="suggestionApp-prompts">
                         <a class="suggestionApp-action btn" href="#">No thanks.</a>
                         <form action="http://codepen.io/pen/define" method="POST" target="_blank">
-                            <input type="hidden" name="data" value='{
+                            <input class="hiddenInput" type="hidden" name="data" value='{
                             "title": "New Pen from The Practice App!",
                             "html": "<span><a href=\"http://tevko.github.io/practice\">Check out The Practice App!</a></span>",
                             "css": "span{ position: absolute;top: 1px;right: 1px; }"}'
                             />
-                            <input class="btn" type="submit" value="Okay, I'll do it!" />
+                            <input id="solveItem" class="btn" type="submit" value="Okay, I'll do it!" />
                         </form>
+                        <div class="suggestionApp-level"></div>
                     </div>
                 </div>
             </div>
@@ -52,6 +53,7 @@
         </article>
     </section>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
     <script src="assets/js/main.min.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

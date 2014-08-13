@@ -94,27 +94,53 @@ if ($('.block-github').length) {
     });
     //random module
     if ($('.block-random').length) {
+        counter = 0;
+        var build = 20;
         function itemsNotice() {
             $('.items-notice').removeClass('items-notice_show');
             $('.items-notice').addClass('items-notice_show');
             setTimeout(function() {
                 $('.items-notice').removeClass('items-notice_show');
-            }, 5000);
+            }, 2000);
         }
-        $.getJSON('random.json').done(function(data) {
-            counter = 0;
-            $('span').text(data[0].value);
-            $('.suggestionApp-action').click(function() {
-                var build = 20;
-                counter = (counter + 1) % build;
+        function getRandom() {
+            $.getJSON('random.json').done(function(data) {
                 var progressWidth = counter * 5.2631579;
                 $('.progress').css('width', progressWidth + '%');
                 $('span').text(data[counter].value);
+                $('.suggestionApp-level').text(data[counter].Difficulty);
+                $('.hiddenInput')[0].value = '{
+                                                "title": "New Pen from The Practice App!",
+                                                "html": "<h1>' + data[counter].value + '</h1>",
+                                                "css": "span{ position: absolute;top: 1px;right: 1px;}"
+                                            }';
                 if(counter == 19) {
                     itemsNotice();
                 }
+                if ($('.suggestionApp-level').text() == 'Advanced') {
+                    $('.suggestionApp-level').css('background-color', 'rgb(138, 44, 44)');
+                } else if($('.suggestionApp-level').text() == 'Intermediate') {
+                    $('.suggestionApp-level').css('background-color', 'rgb(170, 170, 28)');
+                } else if($('.suggestionApp-level').text() == 'Easy') {
+                    $('.suggestionApp-level').css('background-color', 'rgb(31, 145, 36)');
+                }
             });
+        }
+        getRandom();
+        //keyboard shortcut
+        Mousetrap.bind('right', function() {
+            $('.suggestionApp-action').trigger('click');
         });
+        Mousetrap.bind('enter', function() {
+            $('#solveItem').trigger('click');
+            console.log('enter');
+        });
+        $('.suggestionApp-action').click(function() {
+            console.log(counter);
+            counter = (counter + 1) % build;
+            getRandom();
+        });
+
     }
     //dribble module
     if ($('.block-dribbble').length) {
