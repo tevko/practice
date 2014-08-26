@@ -1,6 +1,7 @@
 if ($('.block-github').length) {
-
-    alert('keyboard shortcuts enabled! Press the right arrow for a new issue and the enter key to solve!');
+    setTimeout(function() {
+        $('.items-notice').removeClass('items-notice_show-github');
+    }, 2000);
     //variables
 
     var randPage = Math.floor(Math.random() * 34),
@@ -64,6 +65,7 @@ if ($('.block-github').length) {
     //keyboard shortcut
     Mousetrap.bind('right', function() {
         solveGit();
+        $('.content-holder').scrollTop(0);
         $('.content-holder').perfectScrollbar('update');
     });
     Mousetrap.bind('enter', function() {
@@ -73,6 +75,7 @@ if ($('.block-github').length) {
     //clicking the button
     $('.suggestionApp-action').click(function() {
         solveGit();
+        $('.content-holder').scrollTop(0);
         $('.content-holder').perfectScrollbar('update');
     });
 
@@ -84,6 +87,7 @@ if ($('.block-github').length) {
             language = '';
         }
         solveGit();
+        $('.content-holder').scrollTop(0);
         $('.content-holder').perfectScrollbar('update');
     });
 }
@@ -133,10 +137,8 @@ if ($('.block-github').length) {
         });
         Mousetrap.bind('enter', function() {
             $('#solveItem').trigger('click');
-            console.log('enter');
         });
         $('.suggestionApp-action').click(function() {
-            console.log(counter);
             counter = (counter + 1) % build;
             getRandom();
         });
@@ -155,12 +157,23 @@ if ($('.block-github').length) {
                     .append( dribbleImg[randomNumber].player.name + '<br>')
                     .append('<a href="' + dribbleImg[randomNumber].player.url + '">' + dribbleImg[randomNumber].player.url +'</a>'
                 );
+                $('.hiddenInput')[0].value = '{
+                                                "title": "New Pen from The Practice App!",
+                                                "html": "<img src=\'' + dribbleImg[randomNumber].image_url + '\'/>"
+                                            }';
             });
         }
         getDribbleShot();
         $('.suggestionApp-action').click(function() {
             $('.suggestionApp-content').empty();
             getDribbleShot();
+        });
+        Mousetrap.bind('right', function() {
+            $('.suggestionApp-content').empty();
+            getDribbleShot();
+        });
+        Mousetrap.bind('enter', function() {
+            $('.dribbbleSubmit').trigger('click');
         });
     }
 })(jQuery , window );

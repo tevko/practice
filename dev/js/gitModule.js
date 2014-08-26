@@ -1,6 +1,7 @@
 if ($('.block-github').length) {
-
-    alert('keyboard shortcuts enabled! Press the right arrow for a new issue and the enter key to solve!');
+    setTimeout(function() {
+        $('.items-notice').removeClass('items-notice_show-github');
+    }, 2000);
     //variables
 
     var randPage = Math.floor(Math.random() * 34),
@@ -64,6 +65,7 @@ if ($('.block-github').length) {
     //keyboard shortcut
     Mousetrap.bind('right', function() {
         solveGit();
+        $('.content-holder').scrollTop(0);
         $('.content-holder').perfectScrollbar('update');
     });
     Mousetrap.bind('enter', function() {
@@ -73,6 +75,7 @@ if ($('.block-github').length) {
     //clicking the button
     $('.suggestionApp-action').click(function() {
         solveGit();
+        $('.content-holder').scrollTop(0);
         $('.content-holder').perfectScrollbar('update');
     });
 
@@ -84,6 +87,7 @@ if ($('.block-github').length) {
             language = '';
         }
         solveGit();
+        $('.content-holder').scrollTop(0);
         $('.content-holder').perfectScrollbar('update');
     });
 }

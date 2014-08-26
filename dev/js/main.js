@@ -44,10 +44,8 @@
         });
         Mousetrap.bind('enter', function() {
             $('#solveItem').trigger('click');
-            console.log('enter');
         });
         $('.suggestionApp-action').click(function() {
-            console.log(counter);
             counter = (counter + 1) % build;
             getRandom();
         });
@@ -66,12 +64,23 @@
                     .append( dribbleImg[randomNumber].player.name + '<br>')
                     .append('<a href="' + dribbleImg[randomNumber].player.url + '">' + dribbleImg[randomNumber].player.url +'</a>'
                 );
+                $('.hiddenInput')[0].value = '{
+                                                "title": "New Pen from The Practice App!",
+                                                "html": "<img src=\'' + dribbleImg[randomNumber].image_url + '\'/>"
+                                            }';
             });
         }
         getDribbleShot();
         $('.suggestionApp-action').click(function() {
             $('.suggestionApp-content').empty();
             getDribbleShot();
+        });
+        Mousetrap.bind('right', function() {
+            $('.suggestionApp-content').empty();
+            getDribbleShot();
+        });
+        Mousetrap.bind('enter', function() {
+            $('.dribbbleSubmit').trigger('click');
         });
     }
 })(jQuery , window );

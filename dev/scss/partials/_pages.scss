@@ -18,3 +18,8 @@
     transform: translateY(71%);
     font-size: 2em;
 }
+
+.items-notice_show-github {
+    @extend .items-notice_show;
+    transform: translateY(50%);
+}

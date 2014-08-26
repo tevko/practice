@@ -225,12 +225,17 @@ body, html {
   position: absolute;
   z-index: 5; }
 
-.items-notice_show {
+.items-notice_show, .items-notice_show-github {
   display: block;
   -webkit-transform: translateY(71%);
   -ms-transform: translateY(71%);
   transform: translateY(71%);
   font-size: 2em; }
+
+.items-notice_show-github {
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%); }
 
 .btn {
   font-size: 0.5em;

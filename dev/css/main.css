@@ -217,10 +217,13 @@ body, html {
   position: absolute;
   z-index: 5; }
 
-.items-notice_show {
+.items-notice_show, .items-notice_show-github {
   display: block;
   transform: translateY(71%);
   font-size: 2em; }
+
+.items-notice_show-github {
+  transform: translateY(50%); }
 
 .btn {
   font-size: 0.5em;
