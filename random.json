@@ -2,101 +2,101 @@
   {
     "item":1,
     "value":"Use one line of CSS to add a multistep transition to an element",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":2,
     "value":"Build a Tabs widget",
-    "Dificulty":"Easy"
+    "Difficulty":"Easy"
   },
   {
     "item":3,
     "value":"Make a demo using and explaining the Network Information API",
-    "Dificulty":"Advanced"
+    "Difficulty":"Advanced"
   },
   {
     "item":4,
     "value":"Use the Array.map method to manipulate an array",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":5,
     "value":"Write a sorting algorithm",
-    "Dificulty":"Advanced"
+    "Difficulty":"Advanced"
   },
   {
     "item":6,
     "value":"Prefetch a resource using th HTML5 prefetch attribute",
-    "Dificulty":"Easy"
+    "Difficulty":"Easy"
   },
   {
     "item":7,
     "value":"Build an instrument out of CSS and HTML",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":8,
     "value":"Declare a variable in javascript",
-    "Dificulty":"Easy"
+    "Difficulty":"Easy"
   },
   {
     "item":9,
     "value":"Without using jQuery, build a toggleClass function in as few lines of CSS as possible",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":10,
     "value":"Make a demo using javascript's trim() function",
-    "Dificulty":"Easy"
+    "Difficulty":"Easy"
   },
   {
     "item":11,
     "value":"Make a podcast player app",
-    "Dificulty":"Advanced"
+    "Difficulty":"Advanced"
   },
   {
     "item":12,
     "value":"Use the web audio api to play a tone frequency",
-    "Dificulty":"Advanced"
+    "Difficulty":"Advanced"
   },
   {
     "item":13,
     "value":"Build a modal window without using javascript",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":14,
     "value":"Use javascript to add a color animation to a div",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":15,
     "value":"Add custom styles to an <hr> element",
-    "Dificulty":"Easy"
+    "Difficulty":"Easy"
   },
   {
     "item":16,
     "value":"Make a div editable, so that you can manipulate the text inside",
-    "Dificulty":"Easy"
+    "Difficulty":"Easy"
   },
   {
     "item":17,
     "value":"Build a javascript widget that tells you how large your screen size is in various units",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":18,
     "value":"Create a set of CSS only icons",
-    "Dificulty":"Easy"
+    "Difficulty":"Easy"
   },
   {
     "item":19,
     "value":"Convert a blob of markdown into HTML",
-    "Dificulty":"Intermediate"
+    "Difficulty":"Intermediate"
   },
   {
     "item":20,
     "value":"Build a javascript plugin for the web notifications API. Include fallbacks for increased browser support",
-    "Dificulty":"Advanced"
+    "Difficulty":"Advanced"
   }
 ]
