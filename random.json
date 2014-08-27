@@ -1,102 +1,102 @@
 [
   {
     "item":1,
-    "value":"Build a flexbox grid",
-    "Difficulty":"Advanced"
+    "value":"Use one line of CSS to add a multistep transition to an element",
+    "Dificulty":"Intermediate"
   },
   {
     "item":2,
-    "value":"Make a demo using the battery status API",
-    "Difficulty":"Intermediate"
+    "value":"Build a Tabs widget",
+    "Dificulty":"Easy"
   },
   {
     "item":3,
-    "value":"Use React to get/manipulate data from an API",
-    "Difficulty":"Advanced"
+    "value":"Make a demo using and explaining the Network Information API",
+    "Dificulty":"Advanced"
   },
   {
     "item":4,
-    "value":"Use CSS to make some text flow from right to left",
-    "Difficulty":"Easy"
+    "value":"Use the Array.map method to manipulate an array",
+    "Dificulty":"Intermediate"
   },
   {
     "item":5,
-    "value":"Make a demo demonstrating the use of Array.prototype.some()",
-    "Difficulty":"Intermediate"
+    "value":"Write a sorting algorithm",
+    "Dificulty":"Advanced"
   },
   {
     "item":6,
-    "value":"Build a CSS circle that changes color when the user hovers over it",
-    "Difficulty":"Easy"
+    "value":"Prefetch a resource using th HTML5 prefetch attribute",
+    "Dificulty":"Easy"
   },
   {
     "item":7,
-    "value":"Write a media query that targets device orientations",
-    "Difficulty":"Easy"
+    "value":"Build an instrument out of CSS and HTML",
+    "Dificulty":"Intermediate"
   },
   {
     "item":8,
-    "value":"Create an HTML5 Video Playlist",
-    "Difficulty":"Advanced"
+    "value":"Declare a variable in javascript",
+    "Dificulty":"Easy"
   },
   {
     "item":9,
-    "value":"Turn a list into an Array using $.makeArray",
-    "Difficulty":"Intermediate"
+    "value":"Without using jQuery, build a toggleClass function in as few lines of CSS as possible",
+    "Dificulty":"Intermediate"
   },
   {
     "item":10,
-    "value":"Make a css animation that uses step easing",
-    "Difficulty":"Intermediate"
+    "value":"Make a demo using javascript's trim() function",
+    "Dificulty":"Easy"
   },
   {
     "item":11,
-    "value":"Turn a list of arrays into one large array",
-    "Difficulty":"Intermediate"
+    "value":"Make a podcast player app",
+    "Dificulty":"Advanced"
   },
   {
     "item":12,
-    "value":"Change the style of a link using the :focus attribute",
-    "Difficulty":"Easy"
+    "value":"Use the web audio api to play a tone frequency",
+    "Dificulty":"Advanced"
   },
   {
     "item":13,
-    "value":"Build a tabs widget without javascript",
-    "Difficulty":"Intermediate"
+    "value":"Build a modal window without using javascript",
+    "Dificulty":"Intermediate"
   },
   {
     "item":14,
-    "value":"Build a parallax demo without using javascript",
-    "Difficulty":"Advanced"
+    "value":"Use javascript to add a color animation to a div",
+    "Dificulty":"Intermediate"
   },
   {
     "item":15,
-    "value":"Change the outline color of a button after it's been clicked on",
-    "Difficulty":"Easy"
+    "value":"Add custom styles to an <hr> element",
+    "Dificulty":"Easy"
   },
   {
     "item":16,
-    "value":"Use a transition to fade an element to 0 opacity when it's hovered on",
-    "Difficulty":"Easy"
+    "value":"Make a div editable, so that you can manipulate the text inside",
+    "Dificulty":"Easy"
   },
   {
     "item":17,
-    "value":"Build a GUI that can be used to manipulate a set of Javascript functions",
-    "Difficulty":"Advanced"
+    "value":"Build a javascript widget that tells you how large your screen size is in various units",
+    "Dificulty":"Intermediate"
   },
   {
     "item":18,
-    "value":"Build a placeholder image generator using data attributes and the dribbble API",
-    "Difficulty":"Intermediate"
+    "value":"Create a set of CSS only icons",
+    "Dificulty":"Easy"
   },
   {
     "item":19,
-    "value":"Build an svg to data uri converter",
-    "Difficulty":"Advanced"
+    "value":"Convert a blob of markdown into HTML",
+    "Dificulty":"Intermediate"
   },
   {
     "item":20,
-    "value":"Place a div on a page and use javascript to put text inside of it. No jQuery!",
-    "Difficulty":"Easy"
+    "value":"Build a javascript plugin for the web notifications API. Include fallbacks for increased browser support",
+    "Dificulty":"Advanced"
   }
 ]
