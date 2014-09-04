@@ -41,7 +41,7 @@
   },
   {
     "item":9,
-    "value":"Without using jQuery, build a toggleClass function in as few lines of CSS as possible",
+    "value":"Without using jQuery, build a toggleClass function in as few lines of JS as possible",
     "Difficulty":"Intermediate"
   },
   {
