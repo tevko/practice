@@ -14,6 +14,8 @@
 
 @import 'partials/scrollbar';
 
+@import 'partials/hljs'; // syntax highlighting
+
 //Start Modules - Self contained pieces that make up a site when pieced together - remove and add to the list below as necessary
 
 @import 'modules/blocks';

@@ -1,4 +1,6 @@
 if ($('.block-github').length) {
+
+
     setTimeout(function() {
         $('.items-notice').removeClass('items-notice_show-github');
     }, 2000);
@@ -51,15 +53,16 @@ if ($('.block-github').length) {
             }).text(),
             newText = converter.makeHtml(text);
             $('.markdown').empty();
-            console.log(newText);
             $('.markdown').append(newText);
         });
         link = dataObj.items[randRepo].html_url;
         $('#solve').attr('href', dataObj.items[randRepo].html_url);
         if(dataObj.items[randRepo].pull_request) {
             $('.suggestionApp-action').trigger('click');
-            console.log('we\'re skipping pull requests');
         }
+        $('code').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
     }
     solveGit();
     //keyboard shortcut
@@ -70,7 +73,6 @@ if ($('.block-github').length) {
     });
     Mousetrap.bind('enter', function() {
         window.open(link, '_blank');
-        console.log('enter');
     });
     //clicking the button
     $('.suggestionApp-action').click(function() {
