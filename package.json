@@ -1,7 +1,7 @@
 {
   "name": "the-practice-app",
   "preferGlobal": true,
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Generate Random Items to build on the Front End",
   "devDependencies": {
     "browser-sync": "^0.6.2",
