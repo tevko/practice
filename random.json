@@ -1,102 +1,102 @@
 [
   {
     "item":1,
-    "value":"Use one line of CSS to add a multistep transition to an element",
+    "value":"Make a demo that calls different functions when the user holds down shift, alt, or ctrl/cmd and clicks a div ",
     "Difficulty":"Intermediate"
   },
   {
     "item":2,
-    "value":"Build a Tabs widget",
-    "Difficulty":"Easy"
+    "value":"Build an efficient social share widget that only loads in extra scripts when the user needs to interact with it",
+    "Difficulty":"Intermediate"
   },
   {
     "item":3,
-    "value":"Make a demo using and explaining the Network Information API",
+    "value":"Build a web app that can act as an alternative to mobile device camera and  gallery functionality",
     "Difficulty":"Advanced"
   },
   {
     "item":4,
-    "value":"Use the Array.map method to manipulate an array",
+    "value":"Build a cake with HTML and CSS. Extra points if you add an animated candle!",
     "Difficulty":"Intermediate"
   },
   {
     "item":5,
-    "value":"Write a sorting algorithm",
-    "Difficulty":"Advanced"
+    "value":"Build an ordered list with HTML",
+    "Difficulty":"Easy"
   },
   {
     "item":6,
-    "value":"Prefetch a resource using th HTML5 prefetch attribute",
+    "value":"Give a div alpha transparency with CSS",
     "Difficulty":"Easy"
   },
   {
     "item":7,
-    "value":"Build an instrument out of CSS and HTML",
-    "Difficulty":"Intermediate"
+    "value":"Write a recursion function in javascript",
+    "Difficulty":"Advanced"
   },
   {
     "item":8,
-    "value":"Declare a variable in javascript",
-    "Difficulty":"Easy"
+    "value":"write a closure in javascript",
+    "Difficulty":"Intermediate"
   },
   {
     "item":9,
-    "value":"Without using jQuery, build a toggleClass function in as few lines of JS as possible",
+    "value":"Write a javascript function that tests another javascript function",
     "Difficulty":"Intermediate"
   },
   {
     "item":10,
-    "value":"Make a demo using javascript's trim() function",
+    "value":"Write a javascript function that prints out the numbers from 1 - 5",
     "Difficulty":"Easy"
   },
   {
     "item":11,
-    "value":"Make a podcast player app",
-    "Difficulty":"Advanced"
+    "value":"Using the HTML5 Visibility API, make a demo that toggles a class based on when a user is or is not looking at the pen",
+    "Difficulty":"Intermediate"
   },
   {
     "item":12,
-    "value":"Use the web audio api to play a tone frequency",
+    "value":"Make a dashboard for a ficitonal new codepen feature that gives a user advanced analytics on their individual pens",
     "Difficulty":"Advanced"
   },
   {
     "item":13,
-    "value":"Build a modal window without using javascript",
+    "value":"Build a web app that adds one to a counter increment every time the user presses a button",
     "Difficulty":"Intermediate"
   },
   {
     "item":14,
-    "value":"Use javascript to add a color animation to a div",
-    "Difficulty":"Intermediate"
+    "value":"Create something with CSS, HTML, and Javascript that expresses how you feel about the upcoming twitter changes",
+    "Difficulty":"Advanced"
   },
   {
     "item":15,
-    "value":"Add custom styles to an <hr> element",
+    "value":"Write some CSS that makes text bold when you click on it",
     "Difficulty":"Easy"
   },
   {
     "item":16,
-    "value":"Make a div editable, so that you can manipulate the text inside",
-    "Difficulty":"Easy"
+    "value":"Build a UI Dashboard without using any classes in your HTML",
+    "Difficulty":"Intermediate"
   },
   {
     "item":17,
-    "value":"Build a javascript widget that tells you how large your screen size is in various units",
+    "value":"Write a function that fires when the user scrolls in their browser. Don't use jQuery.",
     "Difficulty":"Intermediate"
   },
   {
     "item":18,
-    "value":"Create a set of CSS only icons",
-    "Difficulty":"Easy"
+    "value":"Use plain JS to remove an even listener from the window object",
+    "Difficulty":"Advanced"
   },
   {
     "item":19,
-    "value":"Convert a blob of markdown into HTML",
-    "Difficulty":"Intermediate"
+    "value":"write a string in javascript",
+    "Difficulty":"Easy"
   },
   {
     "item":20,
-    "value":"Build a javascript plugin for the web notifications API. Include fallbacks for increased browser support",
+    "value":"Build a WYSIWYG editor with drag and drop to upload functionality",
     "Difficulty":"Advanced"
   }
 ]

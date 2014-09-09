@@ -55,7 +55,7 @@
     if ($('.block-dribbble').length) {
         function getDribbleShot() {
             var randomPageNumber = Math.floor(Math.random() * (29 - 1 + 1)) + 1;
-            $.getJSON( "http://api.dribbble.com/shots/everyone/?callback=?", { page: randomPageNumber }).done(function(page) {
+            $.getJSON( "https://api.dribbble.com/shots/everyone/?callback=?", { page: randomPageNumber }).done(function(page) {
                 var dribbleImg = $(page.shots);
                 var randomNumber = Math.floor(Math.random() * (14 - 1 + 1)) + 1;
                 var image = '<img src="' + dribbleImg[randomNumber].image_url + '"/>';

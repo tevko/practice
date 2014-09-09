@@ -13,9 +13,10 @@ if ($('.block-github').length) {
         randRepo = 0,
         build = 30,
         language = '',
-        dataObj = getJson("https://api.github.com/search/issues?q=state%3Aopen&page=" + randPage),
+        dataObj = getJson("https://api.github.com/search/issues?q=state:open&page=" + randPage),
         template = $('.template').html(),
         compile = _.template(template);
+
 
 
     //functions
@@ -43,7 +44,7 @@ if ($('.block-github').length) {
         // if we've clicked the button 30 times, get a new set of results from github
         if (randRepo == 29) {
             getRandPage();
-            dataObj = getJson("https://api.github.com/search/issues?q=state%3Aopen" + language + "&page=" + randPage);
+            dataObj = getJson("https://api.github.com/search/issues?q=language:" + language + "+state:open&page=" + randPage);
         }
         $('.suggestionApp-content').empty();
         $('.suggestionApp-content').append(compile(dataObj)).promise().done(function() {
@@ -84,7 +85,7 @@ if ($('.block-github').length) {
     $('#language-select').change(function(){
         randRepo = 28;
         if ($('#language-select').val()) {
-            language = '&language:'+$('#language-select').val();
+            language = $('#language-select').val();
         } else {
             language = '';
         }
@@ -150,7 +151,7 @@ if ($('.block-github').length) {
     if ($('.block-dribbble').length) {
         function getDribbleShot() {
             var randomPageNumber = Math.floor(Math.random() * (29 - 1 + 1)) + 1;
-            $.getJSON( "http://api.dribbble.com/shots/everyone/?callback=?", { page: randomPageNumber }).done(function(page) {
+            $.getJSON( "https://api.dribbble.com/shots/everyone/?callback=?", { page: randomPageNumber }).done(function(page) {
                 var dribbleImg = $(page.shots);
                 var randomNumber = Math.floor(Math.random() * (14 - 1 + 1)) + 1;
                 var image = '<img src="' + dribbleImg[randomNumber].image_url + '"/>';
