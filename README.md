@@ -1,7 +1,5 @@
-practice
-========
-
 The Practice App
+========
 
 Get inspiration, build something on codepen
 
@@ -16,3 +14,7 @@ Get inspiration, build something on codepen
 **V 2.1.0**
 
 Syntax highlighting added with highlight.js using the solarized dark theme
+
+## Contributing
+
+Clone repo, NPM install, then run [Gulp](http://gulpjs.com/). Super simple if you use Gulp. Also SASS.
