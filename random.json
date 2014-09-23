@@ -1,102 +1,102 @@
 [
   {
     "item":1,
-    "value":"Make a demo that calls different functions when the user holds down shift, alt, or ctrl/cmd and clicks a div ",
+    "value":"Use the CSS clip property in a CSS animation",
     "Difficulty":"Intermediate"
   },
   {
     "item":2,
-    "value":"Build an efficient social share widget that only loads in extra scripts when the user needs to interact with it",
+    "value":"Write some inline svg code",
     "Difficulty":"Intermediate"
   },
   {
     "item":3,
-    "value":"Build a web app that can act as an alternative to mobile device camera and  gallery functionality",
-    "Difficulty":"Advanced"
-  },
-  {
-    "item":4,
-    "value":"Build a cake with HTML and CSS. Extra points if you add an animated candle!",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":5,
-    "value":"Build an ordered list with HTML",
+    "value":"Write some javascript that changes properties of text on a page when the user clicks a button",
     "Difficulty":"Easy"
   },
   {
+    "item":4,
+    "value":"Build a movie recommendation app",
+    "Difficulty":"Advanced"
+  },
+  {
+    "item":5,
+    "value":"Use canvas and javascript to build a maze",
+    "Difficulty":"Advanced"
+  },
+  {
     "item":6,
-    "value":"Give a div alpha transparency with CSS",
+    "value":"Build an infinite animation with CSS",
     "Difficulty":"Easy"
   },
   {
     "item":7,
-    "value":"Write a recursion function in javascript",
-    "Difficulty":"Advanced"
-  },
-  {
-    "item":8,
-    "value":"write a closure in javascript",
+    "value":"Design a craft beer label, then build it out with html and CSS",
     "Difficulty":"Intermediate"
   },
   {
+    "item":8,
+    "value":"Use jQuery to change the properties of a div when a user hovers over it",
+    "Difficulty":"Easy"
+  },
+  {
     "item":9,
-    "value":"Write a javascript function that tests another javascript function",
+    "value":"Build a lightbulb using HTML and CSS. When hovered, the lighbulb should light up, and an outer glow should be visible",
     "Difficulty":"Intermediate"
   },
   {
     "item":10,
-    "value":"Write a javascript function that prints out the numbers from 1 - 5",
-    "Difficulty":"Easy"
+    "value":"Pick something on your desk to build with a single div",
+    "Difficulty":"Advanced"
   },
   {
     "item":11,
-    "value":"Using the HTML5 Visibility API, make a demo that toggles a class based on when a user is or is not looking at the pen",
-    "Difficulty":"Intermediate"
+    "value":"Create a div that is editable with the contenteditable attribute. The changes to the div should be stored in local storage",
+    "Difficulty":"Advanced"
   },
   {
     "item":12,
-    "value":"Make a dashboard for a ficitonal new codepen feature that gives a user advanced analytics on their individual pens",
+    "value":"Build a working calculator",
     "Difficulty":"Advanced"
   },
   {
     "item":13,
-    "value":"Build a web app that adds one to a counter increment every time the user presses a button",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":14,
-    "value":"Create something with CSS, HTML, and Javascript that expresses how you feel about the upcoming twitter changes",
-    "Difficulty":"Advanced"
-  },
-  {
-    "item":15,
-    "value":"Write some CSS that makes text bold when you click on it",
+    "value":"Build a snowman with HTML and CSS",
     "Difficulty":"Easy"
   },
   {
-    "item":16,
-    "value":"Build a UI Dashboard without using any classes in your HTML",
+    "item":14,
+    "value":"Build a layout that has a fixed sidebar on the right, scrollable content in the center, and a fixed but internally scrollable sidebar on the left",
     "Difficulty":"Intermediate"
   },
   {
+    "item":15,
+    "value":"Build a user controllable graph with D3.JS",
+    "Difficulty":"Advanced"
+  },
+  {
+    "item":16,
+    "value":"Design a paragraph of text. Use colors, custom fonts, and anything else you can think of",
+    "Difficulty":"Easy"
+  },
+  {
     "item":17,
-    "value":"Write a function that fires when the user scrolls in their browser. Don't use jQuery.",
+    "value":"Build a jQuery plugin",
     "Difficulty":"Intermediate"
   },
   {
     "item":18,
-    "value":"Use plain JS to remove an even listener from the window object",
+    "value":"Build a React component",
     "Difficulty":"Advanced"
   },
   {
     "item":19,
-    "value":"write a string in javascript",
+    "value":"Make a css triangle",
     "Difficulty":"Easy"
   },
   {
     "item":20,
-    "value":"Build a WYSIWYG editor with drag and drop to upload functionality",
+    "value":"Make a demo utilizing the web speech API [chrome only]",
     "Difficulty":"Advanced"
   }
 ]
