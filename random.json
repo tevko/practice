@@ -41,7 +41,7 @@
   },
   {
     "item": 9,
-    "value": "Write a function that pushed 25 numbers from the fibbonacci sequence into an array",
+    "value": "Write a function that pushes 25 numbers from the fibbonacci sequence into an array",
     "Difficulty": "Advanced"
   },
   {
