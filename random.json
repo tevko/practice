@@ -1,102 +1,102 @@
 [
   {
-    "item":1,
-    "value":"Make a demo that calls different functions when the user holds down shift, alt, or ctrl/cmd and clicks a div ",
-    "Difficulty":"Intermediate"
+    "item": 1,
+    "value": "Make a demo using the toFixed method in javascript",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":2,
-    "value":"Build an efficient social share widget that only loads in extra scripts when the user needs to interact with it",
-    "Difficulty":"Intermediate"
+    "item": 2,
+    "value": "Make a demo using the toExponential method in javascript",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":3,
-    "value":"Build a web app that can act as an alternative to mobile device camera and  gallery functionality",
-    "Difficulty":"Advanced"
+    "item": 3,
+    "value": "Make a demo using the toPrecision method in javascript",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":4,
-    "value":"Build a cake with HTML and CSS. Extra points if you add an animated candle!",
-    "Difficulty":"Intermediate"
+    "item": 4,
+    "value": "Use javascript and Markov chains to generate a string of text",
+    "Difficulty": "Advanced"
   },
   {
-    "item":5,
-    "value":"Build an ordered list with HTML",
-    "Difficulty":"Easy"
+    "item": 5,
+    "value": "Create a landing page to aggregate all kind of informations about UTF8 encoding",
+    "Difficulty": "Easy"
   },
   {
-    "item":6,
-    "value":"Give a div alpha transparency with CSS",
-    "Difficulty":"Easy"
+    "item": 6,
+    "value": "Build a text box that will add automatic syntax highlighting to any code you write inside of it",
+    "Difficulty": "Advanced"
   },
   {
-    "item":7,
-    "value":"Write a recursion function in javascript",
-    "Difficulty":"Advanced"
+    "item": 7,
+    "value": "Pick a button to replicate at http://ui-cloud.com/search/button/",
+    "Difficulty": "Easy"
   },
   {
-    "item":8,
-    "value":"write a closure in javascript",
-    "Difficulty":"Intermediate"
+    "item": 8,
+    "value": "Build a responsive tabbed navigation element",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":9,
-    "value":"Write a javascript function that tests another javascript function",
-    "Difficulty":"Intermediate"
+    "item": 9,
+    "value": "Write a function that pushed 25 numbers from the fibbonacci sequence into an array",
+    "Difficulty": "Advanced"
   },
   {
-    "item":10,
-    "value":"Write a javascript function that prints out the numbers from 1 - 5",
-    "Difficulty":"Easy"
+    "item": 10,
+    "value": "Write a native implimentation of indexOf to search for the first instance of a number in an array. Have the function return the index of the specified number in the array",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":11,
-    "value":"Using the HTML5 Visibility API, make a demo that toggles a class based on when a user is or is not looking at the pen",
-    "Difficulty":"Intermediate"
+    "item": 11,
+    "value": "Use and explain the compareDocumentPosition()",
+    "Difficulty": "Easy"
   },
   {
-    "item":12,
-    "value":"Make a dashboard for a ficitonal new codepen feature that gives a user advanced analytics on their individual pens",
-    "Difficulty":"Advanced"
+    "item": 12,
+    "value": "Build a SASS grid framework",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":13,
-    "value":"Build a web app that adds one to a counter increment every time the user presses a button",
-    "Difficulty":"Intermediate"
+    "item": 13,
+    "value": "Build a newspaper layout using CSS and HTML",
+    "Difficulty": "Easy"
   },
   {
-    "item":14,
-    "value":"Create something with CSS, HTML, and Javascript that expresses how you feel about the upcoming twitter changes",
-    "Difficulty":"Advanced"
+    "item": 14,
+    "value": "Explore flexbox and CSS Shapes",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":15,
-    "value":"Write some CSS that makes text bold when you click on it",
-    "Difficulty":"Easy"
+    "item": 15,
+    "value": "Build an image slider, off canvas menu, and a file type icon using only CSS",
+    "Difficulty": "Advanced"
   },
   {
-    "item":16,
-    "value":"Build a UI Dashboard without using any classes in your HTML",
-    "Difficulty":"Intermediate"
+    "item": 16,
+    "value": "Write a SASS function that changes a background color based on the color of the text inside of it",
+    "Difficulty": "Advanced"
   },
   {
-    "item":17,
-    "value":"Write a function that fires when the user scrolls in their browser. Don't use jQuery.",
-    "Difficulty":"Intermediate"
+    "item": 17,
+    "value": "Write a recursive function that takes a number, X, and returns X multiples of 10",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":18,
-    "value":"Use plain JS to remove an even listener from the window object",
-    "Difficulty":"Advanced"
+    "item": 18,
+    "value": "Write a closure in javascript",
+    "Difficulty": "Easy"
   },
   {
-    "item":19,
-    "value":"write a string in javascript",
-    "Difficulty":"Easy"
+    "item": 19,
+    "value": "Build a 3D object with CSS",
+    "Difficulty": "Intermediate"
   },
   {
-    "item":20,
-    "value":"Build a WYSIWYG editor with drag and drop to upload functionality",
-    "Difficulty":"Advanced"
+    "item": 20,
+    "value": "Build a To Do list using the react.js framework",
+    "Difficulty": "Intermediate"
   }
 ]
