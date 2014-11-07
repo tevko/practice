@@ -1,102 +1,102 @@
 [
   {
-    "item": 1,
-    "value": "Make a demo using the toFixed method in javascript",
-    "Difficulty": "Intermediate"
+    "item":1,
+    "value":"Build a javascript function that takes a class name, finds all divs that contain that class name, and sets their height to equal the height of the tallest div",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 2,
-    "value": "Make a demo using the toExponential method in javascript",
-    "Difficulty": "Intermediate"
+    "item":2,
+    "value":"Make a demo using and explaining the the isEqualNode() method",
+    "Difficulty":"Easy"
   },
   {
-    "item": 3,
-    "value": "Make a demo using the toPrecision method in javascript",
-    "Difficulty": "Intermediate"
+    "item":3,
+    "value":"Build a ping pong game using javascript",
+    "Difficulty":"Advanced"
   },
   {
-    "item": 4,
-    "value": "Use javascript and Markov chains to generate a string of text",
-    "Difficulty": "Advanced"
+    "item":4,
+    "value":"Make a demo using the pagehide event listener in javascript",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 5,
-    "value": "Create a landing page to aggregate all kind of informations about UTF8 encoding",
-    "Difficulty": "Easy"
+    "item":5,
+    "value":"Make a demo showing the advantages of using the css property inline-table",
+    "Difficulty":"Easy"
   },
   {
-    "item": 6,
-    "value": "Build a text box that will add automatic syntax highlighting to any code you write inside of it",
-    "Difficulty": "Advanced"
+    "item":6,
+    "value":"Demonstrate the use of the window.getSelection() method",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 7,
-    "value": "Pick a button to replicate at http://ui-cloud.com/search/button/",
-    "Difficulty": "Easy"
+    "item":7,
+    "value":"Use the getElementsByClassName() method to get multiple classes in javascript",
+    "Difficulty":"Easy"
   },
   {
-    "item": 8,
-    "value": "Build a responsive tabbed navigation element",
-    "Difficulty": "Intermediate"
+    "item":8,
+    "value":"Build a UI element and then style it using ONLY nth-of-type and nth-child selectors",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 9,
-    "value": "Write a function that pushes 25 numbers from the fibbonacci sequence into an array",
-    "Difficulty": "Advanced"
+    "item":9,
+    "value":"Write a javascript function that prints out a checkerboard",
+    "Difficulty":"intermediate"
   },
   {
-    "item": 10,
-    "value": "Write a native implimentation of indexOf to search for the first instance of a number in an array. Have the function return the index of the specified number in the array",
-    "Difficulty": "Intermediate"
+    "item":10,
+    "value":"Write a javascript function that replaces a case switch statement",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 11,
-    "value": "Use and explain the compareDocumentPosition()",
-    "Difficulty": "Easy"
+    "item":11,
+    "value":"Build a jQuery plugin that translates text into morse code",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 12,
-    "value": "Build a SASS grid framework",
-    "Difficulty": "Intermediate"
+    "item":12,
+    "value":"Write an algorithm that helps visualize how a voronoi diagram works",
+    "Difficulty":"Advanced"
   },
   {
-    "item": 13,
-    "value": "Build a newspaper layout using CSS and HTML",
-    "Difficulty": "Easy"
+    "item":13,
+    "value":"Using the html5 file api, build a drag and drop file uploader",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 14,
-    "value": "Explore flexbox and CSS Shapes",
-    "Difficulty": "Intermediate"
+    "item":14,
+    "value":"Build a javascript function that finds a match in an object, then returns the index of that match",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 15,
-    "value": "Build an image slider, off canvas menu, and a file type icon using only CSS",
-    "Difficulty": "Advanced"
+    "item":15,
+    "value":"Write a list of comparison operators in javascript",
+    "Difficulty":"Easy"
   },
   {
-    "item": 16,
-    "value": "Write a SASS function that changes a background color based on the color of the text inside of it",
-    "Difficulty": "Advanced"
+    "item":16,
+    "value":"Use CSS to change the color of a div at different browser widths",
+    "Difficulty":"Easy"
   },
   {
-    "item": 17,
-    "value": "Write a recursive function that takes a number, X, and returns X multiples of 10",
-    "Difficulty": "Intermediate"
+    "item":17,
+    "value":"Use CSS and HTML to create a nicely styled ordered list",
+    "Difficulty":"Easy"
   },
   {
-    "item": 18,
-    "value": "Write a closure in javascript",
-    "Difficulty": "Easy"
+    "item":18,
+    "value":"write a javascript function that tests the output of another javascript function",
+    "Difficulty":"Intermediate"
   },
   {
-    "item": 19,
-    "value": "Build a 3D object with CSS",
-    "Difficulty": "Intermediate"
+    "item":19,
+    "value":"Make a demo featuring javascript's dataset property",
+    "Difficulty":"Easy"
   },
   {
-    "item": 20,
-    "value": "Build a To-Do list using the react.js framework",
-    "Difficulty": "Intermediate"
+    "item":20,
+    "value":"Write a simple framework that operates by adding attributes to HTML",
+    "Difficulty":"Advanced"
   }
 ]
