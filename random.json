@@ -1,102 +1,20 @@
-[
-  {
-    "item":1,
-    "value":"Build a javascript function that takes a class name, finds all divs that contain that class name, and sets their height to equal the height of the tallest div",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":2,
-    "value":"Make a demo using and explaining the the isEqualNode() method",
-    "Difficulty":"Easy"
-  },
-  {
-    "item":3,
-    "value":"Build a ping pong game using javascript",
-    "Difficulty":"Advanced"
-  },
-  {
-    "item":4,
-    "value":"Make a demo using the pagehide event listener in javascript",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":5,
-    "value":"Make a demo showing the advantages of using the css property inline-table",
-    "Difficulty":"Easy"
-  },
-  {
-    "item":6,
-    "value":"Demonstrate the use of the window.getSelection() method",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":7,
-    "value":"Use the getElementsByClassName() method to get multiple classes in javascript",
-    "Difficulty":"Easy"
-  },
-  {
-    "item":8,
-    "value":"Build a UI element and then style it using ONLY nth-of-type and nth-child selectors",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":9,
-    "value":"Write a javascript function that prints out a checkerboard",
-    "Difficulty":"intermediate"
-  },
-  {
-    "item":10,
-    "value":"Write a javascript function that replaces a case switch statement",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":11,
-    "value":"Build a jQuery plugin that translates text into morse code",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":12,
-    "value":"Write an algorithm that helps visualize how a voronoi diagram works",
-    "Difficulty":"Advanced"
-  },
-  {
-    "item":13,
-    "value":"Using the html5 file api, build a drag and drop file uploader",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":14,
-    "value":"Build a javascript function that finds a match in an object, then returns the index of that match",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":15,
-    "value":"Write a list of comparison operators in javascript",
-    "Difficulty":"Easy"
-  },
-  {
-    "item":16,
-    "value":"Use CSS to change the color of a div at different browser widths",
-    "Difficulty":"Easy"
-  },
-  {
-    "item":17,
-    "value":"Use CSS and HTML to create a nicely styled ordered list",
-    "Difficulty":"Easy"
-  },
-  {
-    "item":18,
-    "value":"write a javascript function that tests the output of another javascript function",
-    "Difficulty":"Intermediate"
-  },
-  {
-    "item":19,
-    "value":"Make a demo featuring javascript's dataset property",
-    "Difficulty":"Easy"
-  },
-  {
-    "item":20,
-    "value":"Write a simple framework that operates by adding attributes to HTML",
-    "Difficulty":"Advanced"
-  }
-]
+[{"item":1,"value":"Make a demo using the hasAttributes() method in javascript","Difficulty":"Intermediate"},
+{"item":2,"value":"Build a library that allows users to decorate images by adding CSS classes and data attributes","Difficulty":"Intermediate"},
+{"item":3,"value":"Implement 2-Way data binding with vanilla javascript","Difficulty":"Advanced"},
+{"item":4,"value":"Make a demo using and explaining native promises in javascript","Difficulty":"Intermediate"},
+{"item":5,"value":"demonstrate the encodeURI() and decodeURI() methods in javascript","Difficulty":"Easy"},
+{"item":6,"value":"Write a media query!","Difficulty":"Easy"},
+{"item":7,"value":"Write a multi-step css animation","Difficulty":"Intermediate"},
+{"item":8,"value":"Write a function that lazyloads videos with multiple source files","Difficulty":"Intermediate"},
+{"item":9,"value":"Write a barcode reader that uses a web or mobile camera","Difficulty":"Advanced"},
+{"item":10,"value":"Give a javascript object a non-enumerable property","Difficulty":"Intermediate"},
+{"item":11,"value":"Write a demo using and explaining Object.keys()","Difficulty":"Easy"},
+{"item":12,"value":"Write an AJAX function in ES6 promise form","Difficulty":"Advanced"},
+{"item":13,"value":"Make a websocket demo","Difficulty":"Advanced"},
+{"item":14,"value":"Make an svg change color when you hover over it","Difficulty":"Easy"},
+{"item":15,"value":"Write some responsive image markup!","Difficulty":"Easy"},
+{"item":16,"value":"Make a demo using and explaining the elementFromPoint() method in javascript","Difficulty":"Intermediate"},
+{"item":17,"value":"Use a get and set literal in an object","Difficulty":"Intermediate"},
+{"item":18,"value":"Make an animated christmas tree using canvas","Difficulty":"Advanced"},
+{"item":19,"value":"Loop through an object in javascript","Difficulty":"Easy"},
+{"item":20,"value":"Buy yourself a codepen pro account for Christmas!","Difficulty":"Advanced"}]
