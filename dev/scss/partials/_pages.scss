@@ -7,19 +7,15 @@
     text-align: center;
     font-size: 0em;
     padding: 1em;
-    transform: translateY(-2%);
-    transition: .25s ease all;
     position: absolute;
     z-index: 5;
+    opacity: 0;
+    transition: .25s ease opacity;
 }
 
 .items-notice_show {
     display: block;
-    transform: translateY(71%);
     font-size: 2em;
-}
-
-.items-notice_show-github {
-    @extend .items-notice_show;
-    transform: translateY(50%);
+    margin-top: 76px;
+    opacity: 1;
 }
