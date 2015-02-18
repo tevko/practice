@@ -212,21 +212,19 @@ body, html {
   text-align: center;
   font-size: 0em;
   padding: 1em;
-  transform: translateY(-2%);
-  transition: 0.25s ease all;
   position: absolute;
-  z-index: 5; }
+  z-index: 5;
+  opacity: 0;
+  transition: .25s ease opacity; }
 
-.items-notice_show, .items-notice_show-github {
+.items-notice_show {
   display: block;
-  transform: translateY(71%);
-  font-size: 2em; }
-
-.items-notice_show-github {
-  transform: translateY(50%); }
+  font-size: 2em;
+  margin-top: 76px;
+  opacity: 1; }
 
 .btn {
-  font-size: 0.5em;
+  font-size: .5em;
   text-decoration: none;
   color: white;
   padding: 1em;
@@ -234,6 +232,13 @@ body, html {
   background-color: transparent;
   outline: none;
   display: inline-block; }
+
+article a {
+  color: white;
+  text-decoration: none;
+  font-style: italic; }
+  article a:hover {
+    text-decoration: underline; }
 
 form {
   display: inline-block;
@@ -255,10 +260,10 @@ form {
   border-radius: 4px;
   opacity: 0;
   filter: alpha(opacity=0);
-  -o-transition: background-color 0.2s linear, opacity 0.2s linear;
-  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
-  -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
-  transition: background-color 0.2s linear, opacity 0.2s linear; }
+  -o-transition: background-color .2s linear, opacity .2s linear;
+  -webkit-transition: background-color .2s linear, opacity .2s linear;
+  -moz-transition: background-color .2s linear, opacity .2s linear;
+  transition: background-color .2s linear, opacity .2s linear; }
 
 .ps-container:hover .ps-scrollbar-x-rail, .ps-container.hover .ps-scrollbar-x-rail {
   opacity: 0.6;
@@ -285,10 +290,10 @@ form {
   border-radius: 4px;
   opacity: 0;
   filter: alpha(opacity=0);
-  -o-transition: background-color 0.2s linear, opacity 0.2s linear;
-  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
-  -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
-  transition: background-color 0.2s linear, opacity 0.2s linear; }
+  -o-transition: background-color .2s linear, opacity .2s linear;
+  -webkit-transition: background-color .2s linear, opacity .2s linear;
+  -moz-transition: background-color .2s linear, opacity .2s linear;
+  transition: background-color .2s linear, opacity .2s linear; }
 
 .ps-container:hover .ps-scrollbar-y-rail, .ps-container.hover .ps-scrollbar-y-rail {
   opacity: 0.6;
@@ -314,10 +319,10 @@ form {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -o-transition: background-color 0.2s linear;
-  -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear; }
+  -o-transition: background-color .2s linear;
+  -webkit-transition: background-color .2s linear;
+  -moz-transition: background-color .2s linear;
+  transition: background-color .2s linear; }
 
 .ps-container.ie6 .ps-scrollbar-x {
   font-size: 0;
@@ -336,10 +341,10 @@ form {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -o-transition: background-color 0.2s linear;
-  -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear; }
+  -o-transition: background-color .2s linear;
+  -webkit-transition: background-color .2s linear;
+  -moz-transition: background-color .2s linear;
+  transition: background-color .2s linear; }
 
 .ps-container.ie6 .ps-scrollbar-y {
   font-size: 0;
@@ -416,13 +421,17 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   color: white; }
   .block-random:hover, .block-dribbble:hover, .block-github:hover {
     background-repeat: no-repeat; }
+  .block-random .btn, .block-dribbble .btn, .block-github .btn {
+    transition: .2s ease; }
+    .block-random .btn:hover, .block-dribbble .btn:hover, .block-github .btn:hover {
+      background-color: #c7c7c7; }
 
 .block-content {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   font-size: 2em;
-  transition: 0.25s linear;
+  transition: .25s linear;
   font-family: 'Open Sans', sans-serif; }
   .block-content:hover {
     cursor: pointer;
@@ -432,30 +441,30 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .block-random {
   background-color: #262642; }
   .block-random:hover {
-    background-image: url('../../assets/img/practice.png'); }
+    background-image: url("../../assets/img/practice.png"); }
   .block-random .progress {
-    background-color: orange;
+    background-color: #F89406;
     height: 5px;
-    transition: 0.5s ease;
+    transition: .5s ease;
     position: fixed;
     top: 75px;
     left: 0; }
   .block-random .suggestionApp-level {
     display: block;
     margin: 0 auto;
-    width: 205px;
+    max-width: 220px;
     margin-top: 1.5em;
-    padding: 5px; }
+    padding: 10px; }
 
 .block-dribbble {
   background-color: #de467f; }
   .block-dribbble:hover {
-    background-image: url('../../assets/img/dribbble.png'); }
+    background-image: url("../../assets/img/dribbble.png"); }
 
 .block-github {
   background-color: #4183c4; }
   .block-github:hover {
-    background-image: url('../../assets/img/github.png'); }
+    background-image: url("../../assets/img/github.png"); }
 
 .block-container-single {
   height: 100%; }
@@ -470,8 +479,6 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 .block-dribbble .suggestionApp {
   background-color: transparent; }
-.block-dribbble .btn:hover {
-  background-color: #c7c7c7; }
 .block-dribbble .suggestionApp-prompts {
   margin-top: 1em; }
 .block-dribbble img {
@@ -488,10 +495,8 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .block-github .suggestionApp {
   background-color: transparent;
   padding-top: 3em; }
-.block-github .btn:hover {
-  background-color: #c7c7c7; }
 .block-github .suggestionApp-content {
-  font-size: 0.75em;
+  font-size: .75em;
   text-align: left;
   max-width: 1200px;
   word-break: break-word; }
