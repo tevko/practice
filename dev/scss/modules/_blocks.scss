@@ -29,7 +29,7 @@
     font-family: 'Open Sans', sans-serif;
     &:hover {
         cursor: pointer;
-        background-color: rgba(0, 0, 0, 0.44);
+        background-color: $block_hover;
         transform: translateX(20%);
     }
 }
@@ -44,7 +44,7 @@
         background-image:url('../../assets/img/practice.png');
     }
     .progress {
-        background-color: orange;
+        background-color: $orange;
         height: 5px;
         transition: .5s ease;
         position: fixed;
