@@ -1,24 +1,10 @@
+@import "partials/normalize";
+@import "partials/globals";
+@import "partials/pages";
+@import "partials/colors";
+@import "partials/scrollbar";
+@import "partials/hljs";
+@import "modules/blocks";
+@import "modules/suggestionApp";
 
-//Master StyleSheet
-
-//Start partials - partials do things to the site on a global scale, while modules are self contained, refering only to themselves and partial files
-
-@import 'partials/normalize'; // Resets all wierd browser defaults - V3.0.0
-
-
-@import 'partials/globals'; // Classes, fonts, and other rules to be used throughout our SASS files
-
-@import 'partials/pages'; // Need a CSS class that targets only your 'about-us' page? You'd put that here
-
-@import 'partials/colors'; // Here we store all of our colors as variables. Makes Changing colors super easy!
-
-@import 'partials/scrollbar';
-
-@import 'partials/hljs'; // syntax highlighting
-
-//Start Modules - Self contained pieces that make up a site when pieced together - remove and add to the list below as necessary
-
-@import 'modules/blocks';
-
-@import 'modules/suggestionApp';
 @import "partials/buttons";
