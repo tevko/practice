@@ -1,9 +1,10 @@
-
 .block-container {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
+
     &.home {
         height: 93.7%;
+
         a {
             text-decoration: none;
         }
@@ -11,12 +12,21 @@
 }
 
 %block {
-    height:33.33%;
-    display:table;
-    width:100%;
-    color:white;
+    height: 33.33%;
+    display: table;
+    width: 100%;
+    color: white;
+
     &:hover {
         background-repeat: no-repeat;
+    }
+
+    .btn {
+        transition: .2s ease;
+
+        &:hover {
+            background-color: $btn_hover;
+        }
     }
 }
 
@@ -24,9 +34,10 @@
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-size:2em;
+    font-size: 2em;
     transition: .25s linear;
     font-family: 'Open Sans', sans-serif;
+
     &:hover {
         cursor: pointer;
         background-color: $block_hover;
@@ -40,9 +51,11 @@
 
 .block-random {
     background-color: $random;
+
     &:hover {
-        background-image:url('../../assets/img/practice.png');
+        background-image: url("../../assets/img/practice.png");
     }
+
     .progress {
         background-color: $orange;
         height: 5px;
@@ -51,33 +64,37 @@
         top: 75px;
         left: 0;
     }
+
     .suggestionApp-level {
         display: block;
         margin: 0 auto;
-        width: 205px;
+        max-width: 220px;
         margin-top: 1.5em;
-        padding: 5px;
+        padding: 10px;
     }
 }
 
 .block-dribbble {
     background-color: $dribbble;
+
     &:hover {
-        background-image:url('../../assets/img/dribbble.png');
+        background-image: url("../../assets/img/dribbble.png");
     }
 }
 
 .block-github {
     background-color: $github;
+
     &:hover {
-        background-image:url('../../assets/img/github.png');
+        background-image: url("../../assets/img/github.png");
     }
 }
 
 //inner blocks
 
 .block-container-single {
-    height:100%;
+    height: 100%;
+
     .block-content {
         &:hover {
             cursor: inherit;
@@ -85,13 +102,15 @@
             transform: translateX(0);
         }
     }
+
     .block-random, .block-dribbble, .block-github {
         &:hover {
-            background-image:none;
+            background-image: none;
         }
     }
+
     .block-random, .block-dribbble, .block-github {
-        height:100%;
+        height: 100%;
     }
 }
 
@@ -99,18 +118,15 @@
 
 .block-dribbble {
     .suggestionApp {
-        background-color:transparent;
+        background-color: transparent;
     }
-    .btn {
-        &:hover {
-            background-color:rgb(199, 199, 199);
-        }
-    }
+
     .suggestionApp-prompts {
         margin-top: 1em;
     }
+
     img {
-        max-width:100%;
+        max-width: 100%;
     }
 }
 
@@ -122,7 +138,6 @@
 }
 
 .block-github {
-
     code {
         width: 95%;
     }
@@ -132,23 +147,21 @@
     }
 
     .suggestionApp {
-        background-color:transparent;
+        background-color: transparent;
         padding-top: 3em;
     }
-    .btn {
-        &:hover {
-            background-color:rgb(199, 199, 199);
-        }
-    }
+
     .suggestionApp-content {
         font-size: .75em;
         text-align: left;
         max-width: 1200px;
         word-break: break-word;
+
         img {
             max-width: 100%;
         }
     }
+
     .suggestionApp-prompts {
         margin-bottom: 1em;
     }
