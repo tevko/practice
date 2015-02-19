@@ -1,0 +1,34 @@
+.btn {
+    font-size: .5em;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    border: solid white;
+    background-color: transparent;
+    outline: none;
+    display: inline-block;
+}
+
+article {
+    a {
+        color: white;
+        text-decoration: none;
+        font-style: italic;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+form {
+    display: inline-block;
+    margin-left: 1em;
+
+    input {
+        background-color: transparent;
+        padding: 0;
+        outline: none;
+        border: none;
+    }
+}

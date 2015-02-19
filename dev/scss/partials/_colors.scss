@@ -4,26 +4,6 @@ $random: rgb(38, 38, 66);
 $github: #4183c4;
 $dribbble: #de467f;
 
-//also housing buttons
-
-.btn {
-    font-size: .5em;
-    text-decoration: none;
-    color: white;
-    padding: 1em;
-    border: solid white;
-    background-color: transparent;
-    outline: none;
-    display: inline-block;
-}
-
-form {
-    display: inline-block;
-    margin-left:1em;
-    input {
-        background-color:transparent;
-        padding:0;
-        outline:none;
-        border:none;
-    }
-}
+$orange: #F89406;
+$btn_hover: rgb(199, 199, 199);
+$block_hover: rgba(0, 0, 0, 0.44);
