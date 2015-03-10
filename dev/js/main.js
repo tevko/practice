@@ -132,7 +132,7 @@ var dribbble = (function () {
         var randomPage = utils.random_number(1, 29);
         data = utils.get_json(jsonUrl, {
             page: randomPage,
-            access_token: 'bdd907ba008f8a5dffcfc74ac9d21784fec81033961e9116a20f9a853ecbab0e'
+            access_token: '6ed972085fecb7078ef53a3056562c05de38514ebd7d095b6a84f6dba7743031'
         });
     };
 
