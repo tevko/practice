@@ -11,6 +11,15 @@ var utils = (function () {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     };
 
+    var range = function (begin, end) {
+        var range = [];
+        var delta = begin < end ? 1 : -1;
+        for (var index = begin; index != end; index += delta) {
+            range.push(index);
+        }
+        return range;
+    };
+
     var display_message = function (message) {
         var show_class = 'items-notice_show';
 
@@ -44,6 +53,7 @@ var utils = (function () {
 
     return {
         random_number: random_number,
+        range: range,
         display_message: display_message,
         get_json: get_json,
         get_value: get_value
@@ -200,21 +210,23 @@ var github = (function () {
     var CONTENT_HOLDER_SELECTOR = '.content-holder';
     var counter = 0;
     var total = $(NOTICE_SELECTOR).data('total');
-    var randomPage = utils.random_number(counter, total);
+    var randomPages = utils.range(0, total).sort(function () { return Math.random() - 0.5 });
+    var pageCounter = 0;
     var message = $(NOTICE_SELECTOR).data('message');
 
     var get_data = function () {
         var language = $(LANGUAGE_SELECTOR).val();
-        var jsonUrl = 'https://api.github.com/search/issues?q=language:' + encodeURIComponent(language) + '+state:open&page=' + randomPage;
+        var jsonUrl = 'https://api.github.com/search/issues?q=language:' + encodeURIComponent(language) + '+state:open&page=' + randomPages[pageCounter];
+        pageCounter = (pageCounter + 1) % total;
         data = utils.get_json(jsonUrl, {});
+        data.items.sort(function () { return Math.random() - 0.5 });
     };
 
     var render_issue = function () {
         if ((counter > (total - 1)) || (counter === 0)) {
             get_data();
         }
-        var randomItem = utils.random_number(0, total);
-        var issue = data.items[randomItem];
+        var issue = data.items[counter];
         var $title = $('<h3>', {
             text: utils.get_value(issue, 'title')
         });
