@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     clean = require('gulp-clean'),
     concat = require('gulp-concat'),
-    browserSync = require('browser-sync'),
+    browserSync = require('browser-sync').create(),
     cache = require('gulp-cache'),
     rename = require('gulp-rename'),
     sass = require('gulp-sass');
@@ -49,7 +49,9 @@ gulp.task('images', function() {
 
 //browser-sync stuff
 gulp.task('browserSync', function() {
-    browserSync.init(['assets/css/*', '*.php','assets/js/*.js']);
+    browserSync.init({
+      files: ['assets/css/*', '*.php','assets/js/*.js']
+    });
 });
 
 //cleanup time
