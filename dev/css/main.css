@@ -9,10 +9,24 @@ html {
 body {
   margin: 0; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
   display: block; }
 
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
@@ -22,19 +36,22 @@ audio:not([controls]) {
   display: none;
   height: 0; }
 
-[hidden], template {
+[hidden],
+template {
   display: none; }
 
 a {
   background: transparent; }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0; }
 
 abbr[title] {
   border-bottom: 1px dotted; }
 
-b, strong {
+b,
+strong {
   font-weight: bold; }
 
 dfn {
@@ -51,7 +68,8 @@ mark {
 small {
   font-size: 80%; }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -80,11 +98,18 @@ hr {
 pre {
   overflow: auto; }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   color: inherit;
   /* 1 */
   font: inherit;
@@ -95,32 +120,39 @@ button, input, optgroup, select, textarea {
 button {
   overflow: visible; }
 
-button, select {
+button,
+select {
   text-transform: none; }
 
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
   /* 3 */ }
 
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
   cursor: default; }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
 input {
   line-height: normal; }
 
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
 
-input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
 input[type="search"] {
@@ -131,7 +163,8 @@ input[type="search"] {
   /* 2 */
   box-sizing: content-box; }
 
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 fieldset {
@@ -155,7 +188,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-td, th {
+td,
+th {
   padding: 0; }
 
 *, *:before, *:after {
@@ -260,16 +294,18 @@ form {
   border-radius: 4px;
   opacity: 0;
   filter: alpha(opacity=0);
-  -o-transition: background-color .2s linear, opacity .2s linear;
-  -webkit-transition: background-color .2s linear, opacity .2s linear;
-  -moz-transition: background-color .2s linear, opacity .2s linear;
-  transition: background-color .2s linear, opacity .2s linear; }
+  -o-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
+  transition: background-color 0.2s linear, opacity 0.2s linear; }
 
-.ps-container:hover .ps-scrollbar-x-rail, .ps-container.hover .ps-scrollbar-x-rail {
+.ps-container:hover .ps-scrollbar-x-rail,
+.ps-container.hover .ps-scrollbar-x-rail {
   opacity: 0.6;
   filter: alpha(opacity=60); }
 
-.ps-container .ps-scrollbar-x-rail:hover, .ps-container .ps-scrollbar-x-rail.hover {
+.ps-container .ps-scrollbar-x-rail:hover,
+.ps-container .ps-scrollbar-x-rail.hover {
   background-color: #eee;
   opacity: 0.9;
   filter: alpha(opacity=90); }
@@ -290,16 +326,18 @@ form {
   border-radius: 4px;
   opacity: 0;
   filter: alpha(opacity=0);
-  -o-transition: background-color .2s linear, opacity .2s linear;
-  -webkit-transition: background-color .2s linear, opacity .2s linear;
-  -moz-transition: background-color .2s linear, opacity .2s linear;
-  transition: background-color .2s linear, opacity .2s linear; }
+  -o-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
+  transition: background-color 0.2s linear, opacity 0.2s linear; }
 
-.ps-container:hover .ps-scrollbar-y-rail, .ps-container.hover .ps-scrollbar-y-rail {
+.ps-container:hover .ps-scrollbar-y-rail,
+.ps-container.hover .ps-scrollbar-y-rail {
   opacity: 0.6;
   filter: alpha(opacity=60); }
 
-.ps-container .ps-scrollbar-y-rail:hover, .ps-container .ps-scrollbar-y-rail.hover {
+.ps-container .ps-scrollbar-y-rail:hover,
+.ps-container .ps-scrollbar-y-rail.hover {
   background-color: #eee;
   opacity: 0.9;
   filter: alpha(opacity=90); }
@@ -319,16 +357,17 @@ form {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -o-transition: background-color .2s linear;
-  -webkit-transition: background-color .2s linear;
-  -moz-transition: background-color .2s linear;
-  transition: background-color .2s linear; }
+  -o-transition: background-color 0.2s linear;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear; }
 
 .ps-container.ie6 .ps-scrollbar-x {
   font-size: 0;
   /* fixed scrollbar height in xp sp3 ie6 */ }
 
-.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x {
+.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x,
+.ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x {
   background-color: #999; }
 
 .ps-container .ps-scrollbar-y {
@@ -341,22 +380,27 @@ form {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -o-transition: background-color .2s linear;
-  -webkit-transition: background-color .2s linear;
-  -moz-transition: background-color .2s linear;
-  transition: background-color .2s linear; }
+  -o-transition: background-color 0.2s linear;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear; }
 
 .ps-container.ie6 .ps-scrollbar-y {
   font-size: 0;
   /* fixed scrollbar height in xp sp3 ie6 */ }
 
-.ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y, .ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y {
+.ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y,
+.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y {
   background-color: #999; }
 
-.ps-container.ie .ps-scrollbar-x, .ps-container.ie .ps-scrollbar-y {
+.ps-container.ie .ps-scrollbar-x,
+.ps-container.ie .ps-scrollbar-y {
   visibility: hidden; }
 
-.ps-container.ie:hover .ps-scrollbar-x, .ps-container.ie:hover .ps-scrollbar-y, .ps-container.ie.hover .ps-scrollbar-x, .ps-container.ie.hover .ps-scrollbar-y {
+.ps-container.ie:hover .ps-scrollbar-x,
+.ps-container.ie:hover .ps-scrollbar-y,
+.ps-container.ie.hover .ps-scrollbar-x,
+.ps-container.ie.hover .ps-scrollbar-y {
   visibility: visible; }
 
 /*
@@ -372,31 +416,83 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   color: #839496;
   -webkit-text-size-adjust: none; }
 
-.hljs-comment, .hljs-template_comment, .diff .hljs-header, .hljs-doctype, .hljs-pi, .lisp .hljs-string, .hljs-javadoc {
+.hljs-comment,
+.hljs-template_comment,
+.diff .hljs-header,
+.hljs-doctype,
+.hljs-pi,
+.lisp .hljs-string,
+.hljs-javadoc {
   color: #586e75; }
 
 /* Solarized Green */
-.hljs-keyword, .hljs-winutils, .method, .hljs-addition, .css .hljs-tag, .hljs-request, .hljs-status, .nginx .hljs-title {
+.hljs-keyword,
+.hljs-winutils,
+.method,
+.hljs-addition,
+.css .hljs-tag,
+.hljs-request,
+.hljs-status,
+.nginx .hljs-title {
   color: #859900; }
 
 /* Solarized Cyan */
-.hljs-number, .hljs-command, .hljs-string, .hljs-tag .hljs-value, .hljs-rules .hljs-value, .hljs-phpdoc, .hljs-dartdoc, .tex .hljs-formula, .hljs-regexp, .hljs-hexcolor, .hljs-link_url {
+.hljs-number,
+.hljs-command,
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-rules .hljs-value,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.tex .hljs-formula,
+.hljs-regexp,
+.hljs-hexcolor,
+.hljs-link_url {
   color: #2aa198; }
 
 /* Solarized Blue */
-.hljs-title, .hljs-localvars, .hljs-chunk, .hljs-decorator, .hljs-built_in, .hljs-identifier, .vhdl .hljs-literal, .hljs-id, .css .hljs-function {
+.hljs-title,
+.hljs-localvars,
+.hljs-chunk,
+.hljs-decorator,
+.hljs-built_in,
+.hljs-identifier,
+.vhdl .hljs-literal,
+.hljs-id,
+.css .hljs-function {
   color: #268bd2; }
 
 /* Solarized Yellow */
-.hljs-attribute, .hljs-variable, .lisp .hljs-body, .smalltalk .hljs-number, .hljs-constant, .hljs-class .hljs-title, .hljs-parent, .hljs-type, .hljs-link_reference {
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body,
+.smalltalk .hljs-number,
+.hljs-constant,
+.hljs-class .hljs-title,
+.hljs-parent,
+.hljs-type,
+.hljs-link_reference {
   color: #b58900; }
 
 /* Solarized Orange */
-.hljs-preprocessor, .hljs-preprocessor .hljs-keyword, .hljs-pragma, .hljs-shebang, .hljs-symbol, .hljs-symbol .hljs-string, .diff .hljs-change, .hljs-special, .hljs-attr_selector, .hljs-subst, .hljs-cdata, .css .hljs-pseudo, .hljs-header {
+.hljs-preprocessor,
+.hljs-preprocessor .hljs-keyword,
+.hljs-pragma,
+.hljs-shebang,
+.hljs-symbol,
+.hljs-symbol .hljs-string,
+.diff .hljs-change,
+.hljs-special,
+.hljs-attr_selector,
+.hljs-subst,
+.hljs-cdata,
+.css .hljs-pseudo,
+.hljs-header {
   color: #cb4b16; }
 
 /* Solarized Red */
-.hljs-deletion, .hljs-important {
+.hljs-deletion,
+.hljs-important {
   color: #dc322f; }
 
 /* Solarized Violet */
@@ -479,8 +575,10 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 .block-dribbble .suggestionApp {
   background-color: transparent; }
+
 .block-dribbble .suggestionApp-prompts {
   margin-top: 1em; }
+
 .block-dribbble img {
   max-width: 100%; }
 
@@ -490,11 +588,14 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 .block-github code {
   width: 95%; }
+
 .block-github pre {
   overflow: visible; }
+
 .block-github .suggestionApp {
   background-color: transparent;
   padding-top: 3em; }
+
 .block-github .suggestionApp-content {
   font-size: .75em;
   text-align: left;
@@ -502,6 +603,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   word-break: break-word; }
   .block-github .suggestionApp-content img {
     max-width: 100%; }
+
 .block-github .suggestionApp-prompts {
   margin-bottom: 1em; }
 

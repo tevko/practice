@@ -14,7 +14,7 @@ var utils = (function () {
     var range = function (begin, end) {
         var range = [];
         var delta = begin < end ? 1 : -1;
-        for (var index = begin; index != end; index += delta) {
+        for (var index = begin; index <= end; index += delta) {
             range.push(index);
         }
         return range;
