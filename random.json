@@ -7,7 +7,7 @@
 {"item":7,"value":"Build a menu with flexbox","Difficulty":"Easy"},
 {"item":8,"value":"Build an off canvas menu that can be shown an hidden with swipe and touch actions","Difficulty":"Intermediate"},
 {"item":9,"value":"Build an app that turns SVG code into JSON","Difficulty":"Advanced"},
-{"item":10,"value":"Build a ","Difficulty":"Easy"},
+{"item":10,"value":"Build a 'Dumb App Idea' generator","Difficulty":"Easy"},
 {"item":11,"value":"Use Babel to explore the CONST keyword","Difficulty":"Easy"},
 {"item":12,"value":"Write a fetch polyfill","Difficulty":"Intermediate"},
 {"item":13,"value":"Build a todo list app with vanilla javascript","Difficulty":"Intermediate"},
