@@ -14,7 +14,7 @@ var utils = (function () {
     var range = function (begin, end) {
         var range = [];
         var delta = begin < end ? 1 : -1;
-        for (var index = begin; index <= end; index += delta) {
+        for (var index = begin; index !== end; index += delta) {
             range.push(index);
         }
         return range;
@@ -60,7 +60,7 @@ var utils = (function () {
     };
 }());
 
-var random = (function () {
+var random = function () {
     'use strict';
 
     var data = {};
@@ -128,9 +128,9 @@ var random = (function () {
     return {
         init: init
     };
-}());
+};
 
-var dribbble = (function () {
+var dribbble = function () {
     'use strict';
 
     var data = {};
@@ -199,10 +199,10 @@ var dribbble = (function () {
     return {
         init: init
     };
-}());
+};
 
 
-var github = (function () {
+var github = function () {
     'use strict';
 
     var data = {};
@@ -286,7 +286,7 @@ var github = (function () {
     return {
         init: init
     };
-}());
+};
 
 var core = (function () {
     'use strict';
@@ -298,13 +298,13 @@ var core = (function () {
 
         switch ($('article').attr('class')) {
         case 'block-random':
-            random.init();
+            random().init();
             break;
         case 'block-dribbble':
-            dribbble.init();
+            dribbble().init();
             break;
         case 'block-github':
-            github.init();
+            github().init();
             break;
         }
     };
